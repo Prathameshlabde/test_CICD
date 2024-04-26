@@ -1,0 +1,45 @@
+{
+  "fields": [
+    {
+      "id": "amplifierSerial",
+      "label": "Amplifier Serial :",
+      "fieldName": "amplifierSerial",
+      "command": "IDENT?\r\n",
+      "validationRegex": "",
+      "value": "",
+      "showField": false
+    },
+    {
+      "id": "peakForward",
+      "label": "Peak Forward(W):",
+      "fieldName": "peakForward",
+      "command": "CURRPWR?\r\n",
+      "validationRegex": "^FWD\\s+PWR\\s+(\\d+?\\.\\d+)RFL",
+      "showField": true
+    },
+    {
+      "id": "averageForward",
+      "label": "Average Forward(W) :",
+      "fieldName": "averageForward",
+      "command": "AVGPWR?\r\n",
+      "validationRegex": "^FWD\\s+PWR\\s+(\\d+?\\.\\d+)RFL\\s+PWR\\s+\\d+?\\.\\d+",
+      "showField": true
+    },
+    {
+      "id": "windowForward",
+      "label": "Window Forward(W) :",
+      "fieldName": "windowForward",
+      "command": "WINDOWPWR?\r\n",
+      "validationRegex": "^FWD\\s+PWR\\s+(\\d+?\\.\\d+)RFL",
+      "showField": true
+    },
+    {
+      "id": "lastPeakForward",
+      "label": "Last Peak Forward(W) :",
+      "fieldName": "lastPeakForward",
+      "command": "LASTPWR?\r\n",
+      "validationRegex": "^FWD\\s+PWR\\s+(\\d+?\\.\\d+)RFL",
+      "showField": true
+    }
+  ]
+}

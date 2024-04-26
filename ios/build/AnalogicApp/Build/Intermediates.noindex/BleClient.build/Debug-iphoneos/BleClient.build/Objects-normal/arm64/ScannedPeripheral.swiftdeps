@@ -1,0 +1,39 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ScannedPeripheral"
+provides-nominal:
+- "9BleClient17ScannedPeripheralC"
+provides-member:
+- ["9BleClient17ScannedPeripheralC", ""]
+provides-dynamic-lookup:
+- "advertisementData"
+- "peripheral"
+- "rssi"
+depends-top-level:
+- "AdvertisementData"
+- "AssignmentPrecedence"
+- "NSNumber"
+- "Peripheral"
+- "ScannedPeripheral"
+depends-member:
+- ["9BleClient17ScannedPeripheralC", "AdvertisementData"]
+- ["9BleClient17ScannedPeripheralC", "NSNumber"]
+- ["9BleClient17ScannedPeripheralC", "Peripheral"]
+- ["9BleClient17ScannedPeripheralC", "advertisementData"]
+- ["9BleClient17ScannedPeripheralC", "deinit"]
+- ["9BleClient17ScannedPeripheralC", "init"]
+- ["9BleClient17ScannedPeripheralC", "peripheral"]
+- ["9BleClient17ScannedPeripheralC", "rssi"]
+depends-nominal:
+- "9BleClient17ScannedPeripheralC"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/Sundeep/Moved_Project/AnalogicApp/node_modules/react-native-ble-plx/ios/BleClient-Bridging-Header.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "29ee0c4a511305764bf1d61c37d4e2cf"

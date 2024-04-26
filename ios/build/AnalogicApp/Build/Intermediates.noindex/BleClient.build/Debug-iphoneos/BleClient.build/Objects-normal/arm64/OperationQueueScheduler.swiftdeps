@@ -1,0 +1,103 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "OperationQueueScheduler"
+provides-nominal:
+- "9BleClient23OperationQueueSchedulerC"
+provides-member:
+- ["9BleClient23OperationQueueSchedulerC", ""]
+provides-dynamic-lookup:
+- "operationQueue"
+- "schedule"
+depends-top-level:
+- "AssignmentPrecedence"
+- !private "BlockOperation"
+- "Disposable"
+- "ImmediateSchedulerType"
+- "OperationQueue"
+- "OperationQueueScheduler"
+- !private "SingleAssignmentDisposable"
+depends-member:
+- !private ["So16NSBlockOperationC", "init"]
+- !private ["s7CVarArgP", "addOperation"]
+- !private ["s7CVarArgP", "init"]
+- !private ["9BleClient10CancelableP", "init"]
+- !private ["9BleClient10CancelableP", "isDisposed"]
+- !private ["9BleClient10CancelableP", "setDisposable"]
+- !private ["s28CustomDebugStringConvertibleP", "addOperation"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "addOperation"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["9BleClient10DisposableP", "init"]
+- !private ["9BleClient10DisposableP", "isDisposed"]
+- !private ["9BleClient10DisposableP", "setDisposable"]
+- !private ["9BleClient11DisposeBaseC", "init"]
+- !private ["9BleClient11DisposeBaseC", "isDisposed"]
+- !private ["9BleClient11DisposeBaseC", "setDisposable"]
+- !private ["SQ", "addOperation"]
+- !private ["SQ", "init"]
+- !private ["SH", "addOperation"]
+- !private ["SH", "init"]
+- !private ["9BleClient22ImmediateSchedulerTypeP", "BlockOperation"]
+- !private ["9BleClient22ImmediateSchedulerTypeP", "SingleAssignmentDisposable"]
+- ["9BleClient22ImmediateSchedulerTypeP", ""]
+- !private ["9BleClient22ImmediateSchedulerTypeP", "operationQueue"]
+- ["9BleClient22ImmediateSchedulerTypeP", "schedule"]
+- !private ["So8NSObjectC", "addOperation"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectP", "addOperation"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So11NSOperationC", "init"]
+- !private ["So16NSOperationQueueC", "addOperation"]
+- !private ["9BleClient23OperationQueueSchedulerC", "BlockOperation"]
+- ["9BleClient23OperationQueueSchedulerC", "Disposable"]
+- ["9BleClient23OperationQueueSchedulerC", "OperationQueue"]
+- !private ["9BleClient23OperationQueueSchedulerC", "SingleAssignmentDisposable"]
+- ["9BleClient23OperationQueueSchedulerC", "deinit"]
+- ["9BleClient23OperationQueueSchedulerC", "init"]
+- ["9BleClient23OperationQueueSchedulerC", "operationQueue"]
+- ["9BleClient23OperationQueueSchedulerC", "schedule"]
+- !private ["So19NSProgressReportingP", "addOperation"]
+- !private ["9BleClient18ReactiveCompatibleP", "addOperation"]
+- !private ["9BleClient18ReactiveCompatibleP", "init"]
+- !private ["7Combine9SchedulerP", "addOperation"]
+- !private ["9BleClient26SingleAssignmentDisposableC", "deinit"]
+- !private ["9BleClient26SingleAssignmentDisposableC", "init"]
+- !private ["9BleClient26SingleAssignmentDisposableC", "isDisposed"]
+- !private ["9BleClient26SingleAssignmentDisposableC", "setDisposable"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addOperation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addOperation"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+depends-nominal:
+- !private "So16NSBlockOperationC"
+- !private "s7CVarArgP"
+- !private "9BleClient10CancelableP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s23CustomStringConvertibleP"
+- !private "9BleClient10DisposableP"
+- !private "9BleClient11DisposeBaseC"
+- !private "SQ"
+- !private "SH"
+- "9BleClient22ImmediateSchedulerTypeP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So11NSOperationC"
+- !private "So16NSOperationQueueC"
+- "9BleClient23OperationQueueSchedulerC"
+- !private "So19NSProgressReportingP"
+- !private "9BleClient18ReactiveCompatibleP"
+- !private "7Combine9SchedulerP"
+- !private "9BleClient26SingleAssignmentDisposableC"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/Sundeep/Moved_Project/AnalogicApp/node_modules/react-native-ble-plx/ios/BleClient-Bridging-Header.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "e209e82cbb2d1fe56c311fa4096ea0f8"

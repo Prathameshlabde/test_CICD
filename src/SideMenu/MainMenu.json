@@ -1,0 +1,132 @@
+{
+  "menuList": [
+    {
+      "menuId": "menu0",
+      "name": "Amplifier Connection",
+      "routerName": "AmplifierConnection",
+      "iconName": "bluetooth-connect",
+      "iconFamily": "material-community",
+      "isNotification": false
+    },
+    {
+      "menuId": "menu1",
+      "name": "Amplifier Information",
+      "routerName": "AmplifierInformation",
+      "iconName": "amplifier",
+      "iconFamily": "material-community",
+      "isNotification": false
+    },
+    {
+      "menuId": "menu2",
+      "name": "Power Monitoring",
+      "routerName": "PowerMonitoring",
+      "iconName": "power-input",
+      "iconFamily": "MaterialIcons",
+      "isNotification": false
+    },
+    {
+      "menuId": "menu3",
+      "name": "Voltage Monitoring",
+      "routerName": "VoltageMonitoring",
+      "iconName": "activity",
+      "iconFamily": "feather",
+      "isNotification": false
+    },
+    {
+      "menuId": "menu4",
+      "name": "Current Monitoring",
+      "routerName": "CurrentMonitoring",
+      "iconName": "current-ac",
+      "iconFamily": "material-community",
+      "isNotification": false
+    },
+    {
+      "menuId": "menu5",
+      "name": "Fault Log",
+      "routerName": "FaultLog",
+      "iconName": "warning",
+      "iconFamily": "AntDesign",
+      "isNotification": false
+    },
+    {
+      "menuId": "menu6",
+      "name": "Error Log",
+      "routerName": "ErrorLog",
+      "iconName": "error",
+      "iconFamily": "MaterialIcons",
+      "isNotification": false
+    },
+    {
+      "menuId": "menu7",
+      "name": "Counter Log",
+      "routerName": "CounterLog",
+      "iconName": "counter",
+      "iconFamily": "material-community",
+      "isNotification": false
+    },
+    {
+      "menuId": "menu8",
+      "name": "Timer Log",
+      "routerName": "TimerLog",
+      "iconName": "timer",
+      "iconFamily": "material-community",
+      "isNotification": false
+    },
+    {
+      "menuId": "menu9",
+      "name": "Peak Counter",
+      "routerName": "PeakCounter",
+      "iconName": "area-graph",
+      "iconFamily": "entypo",
+      "isNotification": false
+    },
+    {
+      "menuId": "menu10",
+      "name": "Average Counter",
+      "routerName": "AvgCounter",
+      "iconName": "percent",
+      "iconFamily": "feather",
+      "isNotification": false
+    },
+    {
+      "menuId": "menu11",
+      "name": "Junction Temp Rise Final",
+      "routerName": "JtrFin",
+      "iconName": "temperature-celsius",
+      "iconFamily": "material-community",
+      "isNotification": false
+    },
+    {
+      "menuId": "menu12",
+      "name": "Junction Temp Rise Driver",
+      "routerName": "JtrDrv",
+      "iconName": "temperature-celsius",
+      "iconFamily": "material-community",
+      "isNotification": false
+    },
+    {
+      "menuId": "menu13",
+      "name": "Joules Counter",
+      "routerName": "JoulesCounter",
+      "iconName": "battery-charging",
+      "iconFamily": "feather",
+      "isNotification": false
+    },
+    {
+      "menuId": "menu14",
+      "name": "Privacy Policy",
+      "routerName": "PrivacyPolicy",
+      "iconName": "verified-user",
+      "iconFamily": "MaterialIcons",
+      "isNotification": false
+    },
+    {
+      "menuId": "menu15",
+      "name": "About Us",
+      "routerName": "AboutUs",
+      "iconName": "info",
+      "iconFamily": "entypo",
+      "isNotification": false
+    }
+  ]
+}

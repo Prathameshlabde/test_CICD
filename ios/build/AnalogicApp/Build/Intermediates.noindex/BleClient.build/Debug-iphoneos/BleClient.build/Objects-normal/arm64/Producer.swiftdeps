@@ -1,0 +1,161 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Producer"
+provides-nominal:
+- "9BleClient8ProducerC"
+provides-member:
+- ["9BleClient8ProducerC", ""]
+provides-dynamic-lookup:
+- "_sink"
+- "_state"
+- "_subscription"
+- "dispose"
+- "isDisposed"
+- "setSinkAndSubscription"
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "&"
+- "=="
+- "AssignmentPrecedence"
+- !private "AtomicFlagSet"
+- "AtomicInt"
+- !private "AtomicOr"
+- "Bool"
+- "Cancelable"
+- !private "CurrentThreadScheduler"
+- "Disposable"
+- "FloatLiteralType"
+- "Int32"
+- "IntegerLiteralType"
+- "Observable"
+- "ObserverType"
+- "Producer"
+- !private "SinkDisposer"
+- !private "StringLiteralType"
+- "UInt32"
+- !private "rxAbstractMethod"
+- !private "rxFatalError"
+- !private "~="
+depends-member:
+- !private ["9BleClient10CancelableP", "AtomicFlagSet"]
+- !private ["9BleClient10CancelableP", "AtomicOr"]
+- !private ["9BleClient10CancelableP", "DisposeState"]
+- !private ["9BleClient10CancelableP", "DisposeStateInt32"]
+- !private ["9BleClient10CancelableP", ""]
+- !private ["9BleClient10CancelableP", "_sink"]
+- !private ["9BleClient10CancelableP", "_state"]
+- !private ["9BleClient10CancelableP", "_subscription"]
+- ["9BleClient10CancelableP", "dispose"]
+- !private ["9BleClient10CancelableP", "init"]
+- ["9BleClient10CancelableP", "isDisposed"]
+- !private ["9BleClient10CancelableP", "rxFatalError"]
+- !private ["9BleClient10CancelableP", "setSinkAndSubscription"]
+- !private ["9BleClient22CurrentThreadSchedulerC", "deinit"]
+- !private ["9BleClient22CurrentThreadSchedulerC", "instance"]
+- !private ["9BleClient22CurrentThreadSchedulerC", "isScheduleRequired"]
+- !private ["9BleClient22CurrentThreadSchedulerC", "schedule"]
+- !private ["9BleClient10DisposableP", "AtomicFlagSet"]
+- !private ["9BleClient10DisposableP", "AtomicOr"]
+- !private ["9BleClient10DisposableP", "DisposeState"]
+- !private ["9BleClient10DisposableP", "DisposeStateInt32"]
+- !private ["9BleClient10DisposableP", ""]
+- !private ["9BleClient10DisposableP", "_sink"]
+- !private ["9BleClient10DisposableP", "_state"]
+- !private ["9BleClient10DisposableP", "_subscription"]
+- ["9BleClient10DisposableP", "dispose"]
+- !private ["9BleClient10DisposableP", "init"]
+- ["9BleClient10DisposableP", "isDisposed"]
+- !private ["9BleClient10DisposableP", "rxFatalError"]
+- !private ["9BleClient10DisposableP", "setSinkAndSubscription"]
+- ["SQ", "=="]
+- ["SQ", "RawValue"]
+- !private ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "disposed"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "rawValue"]
+- !private ["SQ", "sinkAndSubscriptionSet"]
+- ["SH", "=="]
+- ["SH", "RawValue"]
+- !private ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "disposed"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "rawValue"]
+- !private ["SH", "sinkAndSubscriptionSet"]
+- !private ["9BleClient22ImmediateSchedulerTypeP", "instance"]
+- !private ["9BleClient22ImmediateSchedulerTypeP", "isScheduleRequired"]
+- !private ["9BleClient22ImmediateSchedulerTypeP", "schedule"]
+- ["9BleClient10ObservableC", "Cancelable"]
+- !private ["9BleClient10ObservableC", "CurrentThreadScheduler"]
+- ["9BleClient10ObservableC", "Disposable"]
+- ["9BleClient10ObservableC", "ObserverType"]
+- !private ["9BleClient10ObservableC", "SinkDisposer"]
+- ["9BleClient10ObservableC", ""]
+- ["9BleClient10ObservableC", "init"]
+- ["9BleClient10ObservableC", "run"]
+- !private ["9BleClient10ObservableC", "rxAbstractMethod"]
+- ["9BleClient10ObservableC", "subscribe"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "CurrentThreadScheduler"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "SinkDisposer"]
+- ["9BleClient25ObservableConvertibleTypeP", ""]
+- !private ["9BleClient25ObservableConvertibleTypeP", "init"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "run"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "rxAbstractMethod"]
+- !private ["9BleClient14ObservableTypeP", "CurrentThreadScheduler"]
+- !private ["9BleClient14ObservableTypeP", "SinkDisposer"]
+- ["9BleClient14ObservableTypeP", ""]
+- !private ["9BleClient14ObservableTypeP", "init"]
+- !private ["9BleClient14ObservableTypeP", "run"]
+- !private ["9BleClient14ObservableTypeP", "rxAbstractMethod"]
+- ["9BleClient8ProducerC", "Cancelable"]
+- !private ["9BleClient8ProducerC", "CurrentThreadScheduler"]
+- ["9BleClient8ProducerC", "Disposable"]
+- ["9BleClient8ProducerC", "ObserverType"]
+- !private ["9BleClient8ProducerC", "SinkDisposer"]
+- ["9BleClient8ProducerC", "deinit"]
+- ["9BleClient8ProducerC", "init"]
+- ["9BleClient8ProducerC", "run"]
+- !private ["9BleClient8ProducerC", "rxAbstractMethod"]
+- ["9BleClient8ProducerC", "subscribe"]
+- ["SY", "=="]
+- ["SY", "RawValue"]
+- !private ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- ["SY", "_rawHashValue"]
+- !private ["SY", "disposed"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "rawValue"]
+- !private ["SY", "sinkAndSubscriptionSet"]
+depends-nominal:
+- "9BleClient10CancelableP"
+- !private "9BleClient22CurrentThreadSchedulerC"
+- "9BleClient10DisposableP"
+- "SQ"
+- "SH"
+- !private "9BleClient22ImmediateSchedulerTypeP"
+- "9BleClient10ObservableC"
+- "9BleClient25ObservableConvertibleTypeP"
+- "9BleClient14ObservableTypeP"
+- "9BleClient8ProducerC"
+- "SY"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/Sundeep/Moved_Project/AnalogicApp/node_modules/react-native-ble-plx/ios/BleClient-Bridging-Header.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "95fda29a31c5e046cfff2168c8413760"

@@ -1,0 +1,89 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ScheduledDisposable"
+provides-nominal:
+- "9BleClient19ScheduledDisposableC"
+provides-member:
+- ["9BleClient19ScheduledDisposableC", ""]
+provides-dynamic-lookup:
+- "_disposable"
+- "_isDisposed"
+- "dispose"
+- "disposeInner"
+- "isDisposed"
+- "scheduler"
+depends-top-level:
+- !private "=="
+- "AssignmentPrecedence"
+- !private "AtomicCompareAndSwap"
+- "AtomicInt"
+- "Bool"
+- "Cancelable"
+- "Disposable"
+- "Disposables"
+- "FloatLiteralType"
+- "ImmediateSchedulerType"
+- "IntegerLiteralType"
+- "ScheduledDisposable"
+- !private "disposeScheduledDisposable"
+depends-member:
+- !private ["9BleClient10CancelableP", "AtomicCompareAndSwap"]
+- ["9BleClient10CancelableP", ""]
+- !private ["9BleClient10CancelableP", "_disposable"]
+- !private ["9BleClient10CancelableP", "_isDisposed"]
+- ["9BleClient10CancelableP", "dispose"]
+- ["9BleClient10CancelableP", "disposeInner"]
+- !private ["9BleClient10CancelableP", "disposeScheduledDisposable"]
+- ["9BleClient10CancelableP", "isDisposed"]
+- !private ["9BleClient10CancelableP", "scheduler"]
+- !private ["9BleClient10DisposableP", "AtomicCompareAndSwap"]
+- ["9BleClient10DisposableP", ""]
+- !private ["9BleClient10DisposableP", "_disposable"]
+- !private ["9BleClient10DisposableP", "_isDisposed"]
+- ["9BleClient10DisposableP", "dispose"]
+- ["9BleClient10DisposableP", "disposeInner"]
+- !private ["9BleClient10DisposableP", "disposeScheduledDisposable"]
+- ["9BleClient10DisposableP", "isDisposed"]
+- !private ["9BleClient10DisposableP", "scheduler"]
+- ["9BleClient11DisposablesV", "create"]
+- !private ["9BleClient22ImmediateSchedulerTypeP", "schedule"]
+- !private ["9BleClient19ScheduledDisposableC", "AtomicCompareAndSwap"]
+- ["9BleClient19ScheduledDisposableC", "AtomicInt"]
+- ["9BleClient19ScheduledDisposableC", "Bool"]
+- ["9BleClient19ScheduledDisposableC", "Disposable"]
+- ["9BleClient19ScheduledDisposableC", "ImmediateSchedulerType"]
+- !private ["9BleClient19ScheduledDisposableC", "_disposable"]
+- !private ["9BleClient19ScheduledDisposableC", "_isDisposed"]
+- ["9BleClient19ScheduledDisposableC", "deinit"]
+- ["9BleClient19ScheduledDisposableC", "dispose"]
+- ["9BleClient19ScheduledDisposableC", "disposeInner"]
+- !private ["9BleClient19ScheduledDisposableC", "disposeScheduledDisposable"]
+- ["9BleClient19ScheduledDisposableC", "init"]
+- ["9BleClient19ScheduledDisposableC", "isDisposed"]
+- ["9BleClient19ScheduledDisposableC", "scheduler"]
+depends-nominal:
+- "9BleClient10CancelableP"
+- "9BleClient10DisposableP"
+- "9BleClient11DisposablesV"
+- !private "9BleClient22ImmediateSchedulerTypeP"
+- "9BleClient19ScheduledDisposableC"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/Sundeep/Moved_Project/AnalogicApp/node_modules/react-native-ble-plx/ios/BleClient-Bridging-Header.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "f620f8cc25149012c948644163ef074a"

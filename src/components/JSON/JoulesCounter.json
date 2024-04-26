@@ -1,0 +1,22 @@
+{
+  "fields": [
+    {
+      "id": "amplifierSerial",
+      "label": "Amplifier Serial :",
+      "fieldName": "amplifierSerial",
+      "command": "IDENT?\r\n",
+      "validationRegex": "",
+      "value": "",
+      "showField": false
+    },
+    {
+      "id": "joules",
+      "label": "Joules :",
+      "fieldName": "joules",
+      "command": "JOULECOUNTERS?\r\n",
+      "validationRegex": "",
+      "value": "",
+      "showField": true
+    }
+  ]
+}

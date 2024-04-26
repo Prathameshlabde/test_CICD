@@ -1,0 +1,172 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AsyncLock"
+provides-nominal:
+- "9BleClient9AsyncLockC"
+provides-member:
+- ["9BleClient9AsyncLockC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private ">"
+- "AssignmentPrecedence"
+- "AsyncLock"
+- "Bool"
+- "BooleanLiteralType"
+- "Disposable"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- "InvocableType"
+- "Lock"
+- "Queue"
+- "SpinLock"
+- "SynchronizedDisposeType"
+- "Void"
+depends-member:
+- ["9BleClient9AsyncLockC", "Action"]
+- ["9BleClient9AsyncLockC", "Bool"]
+- ["9BleClient9AsyncLockC", "Queue"]
+- ["9BleClient9AsyncLockC", "SpinLock"]
+- ["9BleClient9AsyncLockC", "Void"]
+- !private ["9BleClient9AsyncLockC", "_hasFaulted"]
+- !private ["9BleClient9AsyncLockC", "_isExecuting"]
+- ["9BleClient9AsyncLockC", "_lock"]
+- !private ["9BleClient9AsyncLockC", "_queue"]
+- ["9BleClient9AsyncLockC", "_synchronized_dispose"]
+- ["9BleClient9AsyncLockC", "deinit"]
+- !private ["9BleClient9AsyncLockC", "dequeue"]
+- ["9BleClient9AsyncLockC", "dispose"]
+- !private ["9BleClient9AsyncLockC", "enqueue"]
+- ["9BleClient9AsyncLockC", "init"]
+- ["9BleClient9AsyncLockC", "invoke"]
+- ["9BleClient9AsyncLockC", "lock"]
+- !private ["9BleClient9AsyncLockC", "synchronizedDispose"]
+- ["9BleClient9AsyncLockC", "unlock"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "lock"]
+- !private ["s7CVarArgP", "unlock"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "lock"]
+- !private ["s28CustomDebugStringConvertibleP", "unlock"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "lock"]
+- !private ["s23CustomStringConvertibleP", "unlock"]
+- ["9BleClient10DisposableP", "Queue"]
+- ["9BleClient10DisposableP", "SpinLock"]
+- ["9BleClient10DisposableP", ""]
+- !private ["9BleClient10DisposableP", "_hasFaulted"]
+- !private ["9BleClient10DisposableP", "_isExecuting"]
+- !private ["9BleClient10DisposableP", "_lock"]
+- !private ["9BleClient10DisposableP", "_queue"]
+- ["9BleClient10DisposableP", "_synchronized_dispose"]
+- !private ["9BleClient10DisposableP", "dequeue"]
+- ["9BleClient10DisposableP", "dispose"]
+- !private ["9BleClient10DisposableP", "enqueue"]
+- ["9BleClient10DisposableP", "lock"]
+- !private ["9BleClient10DisposableP", "synchronizedDispose"]
+- ["9BleClient10DisposableP", "unlock"]
+- ["SQ", "init"]
+- !private ["SQ", "lock"]
+- !private ["SQ", "unlock"]
+- ["SH", "init"]
+- !private ["SH", "lock"]
+- !private ["SH", "unlock"]
+- !private ["9BleClient13InvocableTypeP", "invoke"]
+- ["9BleClient4LockP", "Queue"]
+- ["9BleClient4LockP", "SpinLock"]
+- ["9BleClient4LockP", ""]
+- !private ["9BleClient4LockP", "_hasFaulted"]
+- !private ["9BleClient4LockP", "_isExecuting"]
+- !private ["9BleClient4LockP", "_lock"]
+- !private ["9BleClient4LockP", "_queue"]
+- ["9BleClient4LockP", "_synchronized_dispose"]
+- !private ["9BleClient4LockP", "dequeue"]
+- ["9BleClient4LockP", "dispose"]
+- !private ["9BleClient4LockP", "enqueue"]
+- ["9BleClient4LockP", "init"]
+- ["9BleClient4LockP", "lock"]
+- !private ["9BleClient4LockP", "synchronizedDispose"]
+- ["9BleClient4LockP", "unlock"]
+- ["So9NSLockingP", "init"]
+- !private ["So9NSLockingP", "lock"]
+- !private ["So9NSLockingP", "unlock"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "lock"]
+- !private ["So8NSObjectC", "unlock"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "lock"]
+- !private ["So8NSObjectP", "unlock"]
+- !private ["So15NSRecursiveLockC", "deinit"]
+- ["So15NSRecursiveLockC", "init"]
+- !private ["So15NSRecursiveLockC", "lock"]
+- !private ["So15NSRecursiveLockC", "unlock"]
+- !private ["9BleClient5QueueV", "count"]
+- !private ["9BleClient5QueueV", "dequeue"]
+- !private ["9BleClient5QueueV", "enqueue"]
+- ["9BleClient5QueueV", "init"]
+- ["9BleClient18ReactiveCompatibleP", "init"]
+- !private ["9BleClient18ReactiveCompatibleP", "lock"]
+- !private ["9BleClient18ReactiveCompatibleP", "unlock"]
+- !private ["ST", "count"]
+- !private ["ST", "dequeue"]
+- !private ["ST", "enqueue"]
+- ["ST", "init"]
+- ["9BleClient23SynchronizedDisposeTypeP", "Queue"]
+- ["9BleClient23SynchronizedDisposeTypeP", "SpinLock"]
+- ["9BleClient23SynchronizedDisposeTypeP", ""]
+- !private ["9BleClient23SynchronizedDisposeTypeP", "_hasFaulted"]
+- !private ["9BleClient23SynchronizedDisposeTypeP", "_isExecuting"]
+- !private ["9BleClient23SynchronizedDisposeTypeP", "_lock"]
+- !private ["9BleClient23SynchronizedDisposeTypeP", "_queue"]
+- ["9BleClient23SynchronizedDisposeTypeP", "_synchronized_dispose"]
+- !private ["9BleClient23SynchronizedDisposeTypeP", "dequeue"]
+- ["9BleClient23SynchronizedDisposeTypeP", "dispose"]
+- !private ["9BleClient23SynchronizedDisposeTypeP", "enqueue"]
+- ["9BleClient23SynchronizedDisposeTypeP", "lock"]
+- !private ["9BleClient23SynchronizedDisposeTypeP", "synchronizedDispose"]
+- ["9BleClient23SynchronizedDisposeTypeP", "unlock"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lock"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "unlock"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "lock"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "unlock"]
+depends-nominal:
+- "9BleClient9AsyncLockC"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "9BleClient10DisposableP"
+- "SQ"
+- "SH"
+- !private "9BleClient13InvocableTypeP"
+- "9BleClient4LockP"
+- "So9NSLockingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So15NSRecursiveLockC"
+- "9BleClient5QueueV"
+- "9BleClient18ReactiveCompatibleP"
+- "ST"
+- "9BleClient23SynchronizedDisposeTypeP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/Sundeep/Moved_Project/AnalogicApp/node_modules/react-native-ble-plx/ios/BleClient-Bridging-Header.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "20f00612233d1722cbd8c955c1ed8eb6"

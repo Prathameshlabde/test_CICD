@@ -1,0 +1,112 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BleEvent"
+provides-nominal:
+- "9BleClient0A5EventC"
+provides-member:
+- ["9BleClient0A5EventC", ""]
+provides-dynamic-lookup:
+- "disconnectionEvent"
+- "events"
+- "readEvent"
+- "restoreStateEvent"
+- "scanEvent"
+- "stateChangeEvent"
+depends-top-level:
+- "BleEvent"
+- "NSObject"
+- "StringLiteralType"
+depends-member:
+- ["9BleClient0A5EventC", "deinit"]
+- ["9BleClient0A5EventC", "disconnectionEvent"]
+- ["9BleClient0A5EventC", "events"]
+- ["9BleClient0A5EventC", "init"]
+- ["9BleClient0A5EventC", "readEvent"]
+- ["9BleClient0A5EventC", "restoreStateEvent"]
+- ["9BleClient0A5EventC", "scanEvent"]
+- ["9BleClient0A5EventC", "stateChangeEvent"]
+- ["s7CVarArgP", ""]
+- ["s7CVarArgP", "disconnectionEvent"]
+- ["s7CVarArgP", "readEvent"]
+- ["s7CVarArgP", "restoreStateEvent"]
+- ["s7CVarArgP", "scanEvent"]
+- ["s7CVarArgP", "stateChangeEvent"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "disconnectionEvent"]
+- ["s28CustomDebugStringConvertibleP", "readEvent"]
+- ["s28CustomDebugStringConvertibleP", "restoreStateEvent"]
+- ["s28CustomDebugStringConvertibleP", "scanEvent"]
+- ["s28CustomDebugStringConvertibleP", "stateChangeEvent"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "disconnectionEvent"]
+- ["s23CustomStringConvertibleP", "readEvent"]
+- ["s23CustomStringConvertibleP", "restoreStateEvent"]
+- ["s23CustomStringConvertibleP", "scanEvent"]
+- ["s23CustomStringConvertibleP", "stateChangeEvent"]
+- ["SQ", ""]
+- ["SQ", "disconnectionEvent"]
+- ["SQ", "readEvent"]
+- ["SQ", "restoreStateEvent"]
+- ["SQ", "scanEvent"]
+- ["SQ", "stateChangeEvent"]
+- ["SH", ""]
+- ["SH", "disconnectionEvent"]
+- ["SH", "readEvent"]
+- ["SH", "restoreStateEvent"]
+- ["SH", "scanEvent"]
+- ["SH", "stateChangeEvent"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "disconnectionEvent"]
+- ["So8NSObjectC", "events"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "readEvent"]
+- ["So8NSObjectC", "restoreStateEvent"]
+- ["So8NSObjectC", "scanEvent"]
+- ["So8NSObjectC", "stateChangeEvent"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "disconnectionEvent"]
+- ["So8NSObjectP", "readEvent"]
+- ["So8NSObjectP", "restoreStateEvent"]
+- ["So8NSObjectP", "scanEvent"]
+- ["So8NSObjectP", "stateChangeEvent"]
+- ["9BleClient18ReactiveCompatibleP", ""]
+- ["9BleClient18ReactiveCompatibleP", "disconnectionEvent"]
+- ["9BleClient18ReactiveCompatibleP", "readEvent"]
+- ["9BleClient18ReactiveCompatibleP", "restoreStateEvent"]
+- ["9BleClient18ReactiveCompatibleP", "scanEvent"]
+- ["9BleClient18ReactiveCompatibleP", "stateChangeEvent"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- ["10Foundation27_KeyValueCodingAndObservingP", "disconnectionEvent"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "readEvent"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "restoreStateEvent"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "scanEvent"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "stateChangeEvent"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "disconnectionEvent"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "readEvent"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "restoreStateEvent"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "scanEvent"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "stateChangeEvent"]
+depends-nominal:
+- "9BleClient0A5EventC"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "SH"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "9BleClient18ReactiveCompatibleP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/Sundeep/Moved_Project/AnalogicApp/node_modules/react-native-ble-plx/ios/BleClient-Bridging-Header.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "b93b5140522d1bdfe67f5e8fe86ee8b6"

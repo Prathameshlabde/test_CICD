@@ -1,0 +1,83 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BluetoothState"
+provides-nominal:
+- "9BleClient14BluetoothStateO"
+provides-member:
+- ["9BleClient14BluetoothStateO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "BluetoothState"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- !private "~="
+depends-member:
+- ["9BleClient14BluetoothStateO", "=="]
+- ["9BleClient14BluetoothStateO", "RawValue"]
+- ["9BleClient14BluetoothStateO", "_Default_RawValue"]
+- ["9BleClient14BluetoothStateO", "_rawHashValue"]
+- ["9BleClient14BluetoothStateO", "deinit"]
+- ["9BleClient14BluetoothStateO", "hash"]
+- ["9BleClient14BluetoothStateO", "hashValue"]
+- ["9BleClient14BluetoothStateO", "init"]
+- ["9BleClient14BluetoothStateO", "poweredOff"]
+- ["9BleClient14BluetoothStateO", "poweredOn"]
+- ["9BleClient14BluetoothStateO", "rawValue"]
+- ["9BleClient14BluetoothStateO", "resetting"]
+- ["9BleClient14BluetoothStateO", "unauthorized"]
+- ["9BleClient14BluetoothStateO", "unknown"]
+- ["9BleClient14BluetoothStateO", "unsupported"]
+- ["SQ", "=="]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "rawValue"]
+- ["SH", "=="]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- ["SH", "_rawHashValue"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "rawValue"]
+- ["9BleClient8LoggableP", "=="]
+- ["9BleClient8LoggableP", "RawValue"]
+- ["9BleClient8LoggableP", "_Default_RawValue"]
+- ["9BleClient8LoggableP", "_rawHashValue"]
+- ["9BleClient8LoggableP", "hash"]
+- ["9BleClient8LoggableP", "hashValue"]
+- ["9BleClient8LoggableP", "init"]
+- ["9BleClient8LoggableP", "rawValue"]
+- ["SY", "=="]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- ["SY", "_rawHashValue"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "rawValue"]
+depends-nominal:
+- "9BleClient14BluetoothStateO"
+- "SQ"
+- "SH"
+- "9BleClient8LoggableP"
+- "SY"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/Sundeep/Moved_Project/AnalogicApp/node_modules/react-native-ble-plx/ios/BleClient-Bridging-Header.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "3f210f1532a8804e1066ef2d47b9ef4d"

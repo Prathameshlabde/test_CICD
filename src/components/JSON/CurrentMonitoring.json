@@ -1,0 +1,21 @@
+{
+  "fields": [
+    {
+      "id": "amplifierSerial",
+      "label": "Amplifier Serial :",
+      "fieldName": "amplifierSerial",
+      "command": "IDENT?\r\n",
+      "validationRegex": "",
+      "value": "",
+      "showField": false
+    },
+    {
+      "id": "finalDrain",
+      "label": "Final Drain :",
+      "fieldName": "finalDrain",
+      "command": "CURRENT?\r\n",
+      "validationRegex": "^FIN\\s+(\\d+?\\.\\d+)DRV\\s+",
+      "showField": true
+    }
+  ]
+}

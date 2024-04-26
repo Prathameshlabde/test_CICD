@@ -1,0 +1,39 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ImmediateSchedulerType"
+provides-nominal:
+- "9BleClient22ImmediateSchedulerTypeP"
+provides-member:
+- ["9BleClient22ImmediateSchedulerTypeP", ""]
+- ["9BleClient22ImmediateSchedulerTypeP", "scheduleRecursive"]
+provides-dynamic-lookup:
+depends-top-level:
+- "Disposable"
+- !private "Disposables"
+- "ImmediateSchedulerType"
+- !private "RecursiveImmediateScheduler"
+depends-member:
+- !private ["9BleClient11DisposablesV", "create"]
+- ["9BleClient22ImmediateSchedulerTypeP", "Disposable"]
+- !private ["9BleClient22ImmediateSchedulerTypeP", "Disposables"]
+- !private ["9BleClient22ImmediateSchedulerTypeP", "RecursiveImmediateScheduler"]
+- ["9BleClient22ImmediateSchedulerTypeP", "schedule"]
+- ["9BleClient22ImmediateSchedulerTypeP", "scheduleRecursive"]
+- !private ["9BleClient27RecursiveImmediateSchedulerC", "dispose"]
+- !private ["9BleClient27RecursiveImmediateSchedulerC", "init"]
+- !private ["9BleClient27RecursiveImmediateSchedulerC", "schedule"]
+depends-nominal:
+- !private "9BleClient11DisposablesV"
+- "9BleClient22ImmediateSchedulerTypeP"
+- !private "9BleClient27RecursiveImmediateSchedulerC"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/Sundeep/Moved_Project/AnalogicApp/node_modules/react-native-ble-plx/ios/BleClient-Bridging-Header.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "8dcf4a7f627bef6c016a55b7ff7a67b0"

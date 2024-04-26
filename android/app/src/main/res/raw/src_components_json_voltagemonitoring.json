@@ -1,0 +1,21 @@
+{
+  "fields": [
+    {
+      "id": "amplifierSerial",
+      "label": "Amplifier Serial :",
+      "fieldName": "amplifierSerial",
+      "command": "IDENT?\r\n",
+      "validationRegex": "",
+      "value": "",
+      "showField": false
+    },
+    {
+      "id": "VDD",
+      "label": "VDD :",
+      "fieldName": "VDD",
+      "command": "VOLTAGE?\r\n",
+      "validationRegex": "^VDD\\s+(\\d+?\\.\\d+?)48V\\s+",
+      "showField": true
+    }
+  ]
+}

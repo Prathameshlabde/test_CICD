@@ -1,0 +1,190 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["9BleClient21PrimitiveSequenceTypeP", ""]
+- ["9BleClient21PrimitiveSequenceTypeP", "andThen"]
+- ["9BleClient21PrimitiveSequenceTypeP", "andThen"]
+- ["9BleClient21PrimitiveSequenceTypeP", "andThen"]
+- ["9BleClient21PrimitiveSequenceTypeP", "andThen"]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "Cancelable"
+- "Completable"
+- "CompletableTrait"
+- "ConcatCompletable"
+- "ConcatCompletableSink"
+- !private "ConcatCompletableSinkOther"
+- "Disposable"
+- "Event"
+- "Maybe"
+- "Never"
+- "Observable"
+- "ObserverType"
+- "PrimitiveSequenceType"
+- "Producer"
+- "SerialDisposable"
+- "Single"
+- !private "SingleAssignmentDisposable"
+- "Sink"
+depends-member:
+- !private ["9BleClient10CancelableP", "disposable"]
+- ["9BleClient10CancelableP", "init"]
+- !private ["9BleClient10CancelableP", "setDisposable"]
+- ["s28CustomDebugStringConvertibleP", "completed"]
+- ["s28CustomDebugStringConvertibleP", "error"]
+- !private ["s28CustomDebugStringConvertibleP", "isStopEvent"]
+- ["s28CustomDebugStringConvertibleP", "next"]
+- !private ["9BleClient10DisposableP", "ConcatCompletableSinkOther"]
+- ["9BleClient10DisposableP", "E"]
+- ["9BleClient10DisposableP", "SerialDisposable"]
+- !private ["9BleClient10DisposableP", "SingleAssignmentDisposable"]
+- !private ["9BleClient10DisposableP", ""]
+- !private ["9BleClient10DisposableP", "_parent"]
+- !private ["9BleClient10DisposableP", "_subscription"]
+- !private ["9BleClient10DisposableP", "disposable"]
+- !private ["9BleClient10DisposableP", "dispose"]
+- !private ["9BleClient10DisposableP", "forwardOn"]
+- ["9BleClient10DisposableP", "init"]
+- ["9BleClient10DisposableP", "on"]
+- !private ["9BleClient10DisposableP", "run"]
+- !private ["9BleClient10DisposableP", "setDisposable"]
+- !private ["9BleClient11DisposeBaseC", "disposable"]
+- ["9BleClient11DisposeBaseC", "init"]
+- !private ["9BleClient11DisposeBaseC", "setDisposable"]
+- ["9BleClient5EventO", "completed"]
+- ["9BleClient5EventO", "error"]
+- !private ["9BleClient5EventO", "isStopEvent"]
+- ["9BleClient5EventO", "next"]
+- ["9BleClient16EventConvertibleP", "completed"]
+- ["9BleClient16EventConvertibleP", "error"]
+- !private ["9BleClient16EventConvertibleP", "isStopEvent"]
+- ["9BleClient16EventConvertibleP", "next"]
+- ["9BleClient10ObservableC", "Cancelable"]
+- !private ["9BleClient10ObservableC", "ConcatCompletableSink"]
+- ["9BleClient10ObservableC", "Disposable"]
+- ["9BleClient10ObservableC", "Never"]
+- ["9BleClient10ObservableC", "Observable"]
+- ["9BleClient10ObservableC", "ObserverType"]
+- ["9BleClient10ObservableC", "_completable"]
+- ["9BleClient10ObservableC", "_second"]
+- !private ["9BleClient10ObservableC", "asObservable"]
+- !private ["9BleClient10ObservableC", "deinit"]
+- ["9BleClient10ObservableC", "init"]
+- ["9BleClient10ObservableC", "run"]
+- !private ["9BleClient10ObservableC", "subscribe"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "ConcatCompletableSink"]
+- !private ["9BleClient25ObservableConvertibleTypeP", ""]
+- !private ["9BleClient25ObservableConvertibleTypeP", "_completable"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "_second"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "asObservable"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "init"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "subscribe"]
+- !private ["9BleClient14ObservableTypeP", "ConcatCompletableSink"]
+- !private ["9BleClient14ObservableTypeP", ""]
+- !private ["9BleClient14ObservableTypeP", "_completable"]
+- !private ["9BleClient14ObservableTypeP", "_second"]
+- !private ["9BleClient14ObservableTypeP", "asObservable"]
+- !private ["9BleClient14ObservableTypeP", "init"]
+- !private ["9BleClient14ObservableTypeP", "subscribe"]
+- !private ["9BleClient12ObserverTypeP", "ConcatCompletableSinkOther"]
+- ["9BleClient12ObserverTypeP", "E"]
+- ["9BleClient12ObserverTypeP", "SerialDisposable"]
+- !private ["9BleClient12ObserverTypeP", "SingleAssignmentDisposable"]
+- !private ["9BleClient12ObserverTypeP", ""]
+- !private ["9BleClient12ObserverTypeP", "_parent"]
+- !private ["9BleClient12ObserverTypeP", "_subscription"]
+- !private ["9BleClient12ObserverTypeP", "dispose"]
+- !private ["9BleClient12ObserverTypeP", "forwardOn"]
+- !private ["9BleClient12ObserverTypeP", "init"]
+- ["9BleClient12ObserverTypeP", "on"]
+- !private ["9BleClient12ObserverTypeP", "run"]
+- !private ["9BleClient17PrimitiveSequenceV", "asObservable"]
+- !private ["9BleClient17PrimitiveSequenceV", "deinit"]
+- !private ["9BleClient17PrimitiveSequenceV", "init"]
+- ["9BleClient21PrimitiveSequenceTypeP", "Completable"]
+- ["9BleClient21PrimitiveSequenceTypeP", "CompletableTrait"]
+- !private ["9BleClient21PrimitiveSequenceTypeP", "ConcatCompletable"]
+- ["9BleClient21PrimitiveSequenceTypeP", "ElementType"]
+- ["9BleClient21PrimitiveSequenceTypeP", "Maybe"]
+- ["9BleClient21PrimitiveSequenceTypeP", "Never"]
+- ["9BleClient21PrimitiveSequenceTypeP", "Observable"]
+- ["9BleClient21PrimitiveSequenceTypeP", "Single"]
+- ["9BleClient21PrimitiveSequenceTypeP", "TraitType"]
+- ["9BleClient21PrimitiveSequenceTypeP", "andThen"]
+- !private ["9BleClient21PrimitiveSequenceTypeP", "asObservable"]
+- !private ["9BleClient21PrimitiveSequenceTypeP", "init"]
+- !private ["9BleClient21PrimitiveSequenceTypeP", "primitiveSequence"]
+- ["9BleClient8ProducerC", "Cancelable"]
+- !private ["9BleClient8ProducerC", "ConcatCompletableSink"]
+- ["9BleClient8ProducerC", "Disposable"]
+- ["9BleClient8ProducerC", "Never"]
+- ["9BleClient8ProducerC", "Observable"]
+- ["9BleClient8ProducerC", "ObserverType"]
+- !private ["9BleClient8ProducerC", ""]
+- ["9BleClient8ProducerC", "_completable"]
+- ["9BleClient8ProducerC", "_second"]
+- ["9BleClient8ProducerC", "init"]
+- ["9BleClient8ProducerC", "run"]
+- !private ["9BleClient16SerialDisposableC", "deinit"]
+- !private ["9BleClient16SerialDisposableC", "disposable"]
+- ["9BleClient16SerialDisposableC", "init"]
+- !private ["9BleClient26SingleAssignmentDisposableC", "deinit"]
+- !private ["9BleClient26SingleAssignmentDisposableC", "init"]
+- !private ["9BleClient26SingleAssignmentDisposableC", "setDisposable"]
+- ["9BleClient4SinkC", "Cancelable"]
+- ["9BleClient4SinkC", "ConcatCompletable"]
+- !private ["9BleClient4SinkC", "ConcatCompletableSinkOther"]
+- ["9BleClient4SinkC", "Disposable"]
+- ["9BleClient4SinkC", "E"]
+- ["9BleClient4SinkC", "Event"]
+- ["9BleClient4SinkC", "Never"]
+- ["9BleClient4SinkC", "Parent"]
+- ["9BleClient4SinkC", "SerialDisposable"]
+- !private ["9BleClient4SinkC", "SingleAssignmentDisposable"]
+- !private ["9BleClient4SinkC", ""]
+- ["9BleClient4SinkC", "_parent"]
+- ["9BleClient4SinkC", "_subscription"]
+- !private ["9BleClient4SinkC", "dispose"]
+- !private ["9BleClient4SinkC", "forwardOn"]
+- ["9BleClient4SinkC", "init"]
+- ["9BleClient4SinkC", "on"]
+- ["9BleClient4SinkC", "run"]
+depends-nominal:
+- "9BleClient10CancelableP"
+- "s28CustomDebugStringConvertibleP"
+- "9BleClient10DisposableP"
+- "9BleClient11DisposeBaseC"
+- "9BleClient5EventO"
+- "9BleClient16EventConvertibleP"
+- "9BleClient10ObservableC"
+- !private "9BleClient25ObservableConvertibleTypeP"
+- !private "9BleClient14ObservableTypeP"
+- "9BleClient12ObserverTypeP"
+- !private "9BleClient17PrimitiveSequenceV"
+- "9BleClient21PrimitiveSequenceTypeP"
+- "9BleClient8ProducerC"
+- "9BleClient16SerialDisposableC"
+- !private "9BleClient26SingleAssignmentDisposableC"
+- "9BleClient4SinkC"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/Sundeep/Moved_Project/AnalogicApp/node_modules/react-native-ble-plx/ios/BleClient-Bridging-Header.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "86ce63ea03a006045fe1d384617d2193"

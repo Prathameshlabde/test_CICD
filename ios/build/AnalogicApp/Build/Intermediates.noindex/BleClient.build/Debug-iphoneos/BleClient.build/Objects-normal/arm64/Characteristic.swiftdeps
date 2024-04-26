@@ -1,0 +1,169 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Characteristic"
+- "=="
+provides-nominal:
+- "9BleClient14CharacteristicC"
+provides-member:
+- ["9BleClient14CharacteristicC", ""]
+provides-dynamic-lookup:
+- "characteristic"
+- "descriptors"
+- "discoverDescriptors"
+- "isNotifying"
+- "monitorValueUpdate"
+- "monitorWrite"
+- "objectId"
+- "properties"
+- "readValue"
+- "service"
+- "setNotificationAndMonitorUpdates"
+- "setNotifyValue"
+- "uuid"
+- "value"
+- "writeValue"
+depends-top-level:
+- "=="
+- "AssignmentPrecedence"
+- "Bool"
+- "CBCharacteristicProperties"
+- "CBCharacteristicWriteType"
+- "CBUUID"
+- "Characteristic"
+- "Data"
+- "Descriptor"
+- "Equatable"
+- "Observable"
+- "RxCharacteristicType"
+- "Service"
+- "UInt"
+depends-member:
+- !private ["Sa", "map"]
+- !private ["SK", "map"]
+- !private ["s7CVarArgP", "map"]
+- ["9BleClient14CharacteristicC", "=="]
+- ["9BleClient14CharacteristicC", "Bool"]
+- ["9BleClient14CharacteristicC", "CBCharacteristicProperties"]
+- ["9BleClient14CharacteristicC", "CBCharacteristicWriteType"]
+- ["9BleClient14CharacteristicC", "CBUUID"]
+- ["9BleClient14CharacteristicC", "Characteristic"]
+- ["9BleClient14CharacteristicC", "Data"]
+- ["9BleClient14CharacteristicC", "Descriptor"]
+- ["9BleClient14CharacteristicC", "Observable"]
+- ["9BleClient14CharacteristicC", "RxCharacteristicType"]
+- ["9BleClient14CharacteristicC", "Service"]
+- ["9BleClient14CharacteristicC", "UInt"]
+- ["9BleClient14CharacteristicC", "characteristic"]
+- ["9BleClient14CharacteristicC", "deinit"]
+- ["9BleClient14CharacteristicC", "descriptors"]
+- ["9BleClient14CharacteristicC", "discoverDescriptors"]
+- ["9BleClient14CharacteristicC", "init"]
+- ["9BleClient14CharacteristicC", "isNotifying"]
+- ["9BleClient14CharacteristicC", "monitorValueUpdate"]
+- ["9BleClient14CharacteristicC", "monitorWrite"]
+- ["9BleClient14CharacteristicC", "objectId"]
+- ["9BleClient14CharacteristicC", "properties"]
+- ["9BleClient14CharacteristicC", "readValue"]
+- ["9BleClient14CharacteristicC", "service"]
+- ["9BleClient14CharacteristicC", "setNotificationAndMonitorUpdates"]
+- ["9BleClient14CharacteristicC", "setNotifyValue"]
+- ["9BleClient14CharacteristicC", "uuid"]
+- ["9BleClient14CharacteristicC", "value"]
+- ["9BleClient14CharacteristicC", "writeValue"]
+- !private ["Sl", "map"]
+- !private ["10Foundation15ContiguousBytesP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["10Foundation12DataProtocolP", "map"]
+- !private ["Se", "map"]
+- !private ["9BleClient10DescriptorC", "init"]
+- !private ["SE", "map"]
+- ["SQ", "=="]
+- !private ["SQ", "Descriptor"]
+- ["SQ", ""]
+- !private ["SQ", "characteristic"]
+- !private ["SQ", "discoverDescriptors"]
+- !private ["SQ", "init"]
+- !private ["SQ", "map"]
+- !private ["SQ", "monitorValueUpdate"]
+- !private ["SQ", "monitorWrite"]
+- !private ["SQ", "peripheral"]
+- !private ["SQ", "readValue"]
+- !private ["SQ", "service"]
+- !private ["SQ", "setNotificationAndMonitorUpdates"]
+- !private ["SQ", "setNotifyValue"]
+- !private ["SQ", "writeValue"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["SH", "map"]
+- !private ["SM", "map"]
+- !private ["10Foundation19MutableDataProtocolP", "map"]
+- !private ["9BleClient10PeripheralC", "discoverDescriptors"]
+- !private ["9BleClient10PeripheralC", "monitorValueUpdate"]
+- !private ["9BleClient10PeripheralC", "monitorWrite"]
+- !private ["9BleClient10PeripheralC", "readValue"]
+- !private ["9BleClient10PeripheralC", "setNotificationAndMonitorUpdates"]
+- !private ["9BleClient10PeripheralC", "setNotifyValue"]
+- !private ["9BleClient10PeripheralC", "writeValue"]
+- !private ["Sk", "map"]
+- !private ["Sm", "map"]
+- !private ["9BleClient20RxCharacteristicTypeP", "descriptors"]
+- !private ["9BleClient20RxCharacteristicTypeP", "isNotifying"]
+- !private ["9BleClient20RxCharacteristicTypeP", "objectId"]
+- !private ["9BleClient20RxCharacteristicTypeP", "properties"]
+- !private ["9BleClient20RxCharacteristicTypeP", "uuid"]
+- !private ["9BleClient20RxCharacteristicTypeP", "value"]
+- !private ["ST", "map"]
+- !private ["9BleClient7ServiceC", "peripheral"]
+- ["9BleClient16UUIDIdentifiableP", "=="]
+- !private ["9BleClient16UUIDIdentifiableP", "Descriptor"]
+- !private ["9BleClient16UUIDIdentifiableP", "characteristic"]
+- !private ["9BleClient16UUIDIdentifiableP", "peripheral"]
+- !private ["9BleClient16UUIDIdentifiableP", "service"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s19_HasContiguousBytesP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+depends-nominal:
+- !private "Sa"
+- !private "SK"
+- !private "s7CVarArgP"
+- "9BleClient14CharacteristicC"
+- !private "Sl"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "9BleClient10DescriptorC"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "SH"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "9BleClient10PeripheralC"
+- !private "Sk"
+- !private "Sm"
+- !private "9BleClient20RxCharacteristicTypeP"
+- !private "ST"
+- !private "9BleClient7ServiceC"
+- "9BleClient16UUIDIdentifiableP"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/Sundeep/Moved_Project/AnalogicApp/node_modules/react-native-ble-plx/ios/BleClient-Bridging-Header.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "5681a193636b556ea6522e48eeca60b7"

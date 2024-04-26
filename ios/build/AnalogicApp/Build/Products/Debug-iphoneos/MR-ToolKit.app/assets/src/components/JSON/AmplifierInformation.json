@@ -1,0 +1,76 @@
+{
+  "fields": [
+    {
+      "id": "cIBSWVersion",
+      "label": "CIB SW Version :",
+      "fieldName": "cIBSWVersion",
+      "command": "SWVER?\r\n",
+      "validationRegex": "^(V\\d+)R",
+      "value": "",
+      "showField": true
+    },
+    {
+      "id": "amplifierType",
+      "label": "Amplifier Type :",
+      "fieldName": "amplifierType",
+      "command": "MODEL?\r\n",
+      "validationRegex": "",
+      "value": "",
+      "showField": true
+    },
+    {
+      "id": "amplifierSerial",
+      "label": "Amplifier Serial :",
+      "fieldName": "amplifierSerial",
+      "command": "IDENT?\r\n",
+      "validationRegex": "",
+      "value": "",
+      "showField": true
+    },
+    {
+      "id": "amplifierStatus",
+      "label": "Amplifier Status :",
+      "fieldName": "amplifierStatus",
+      "command": "ST?\r\n",
+      "validationRegex": "",
+      "value": "",
+      "showField": true
+    },
+    {
+      "id": "amplifierDate",
+      "label": "Amplifier Date :",
+      "fieldName": "amplifierDate",
+      "command": "AMPDATE?\r\n",
+      "validationRegex": "",
+      "value": "",
+      "showField": true
+    },
+    {
+      "id": "amplifierTime",
+      "label": "Amplifier Time :",
+      "fieldName": "amplifierTime",
+      "command": "AMPTIME?\r\n",
+      "validationRegex": "",
+      "value": "",
+      "showField": true
+    },
+    {
+      "id": "pSUVersion",
+      "label": "PSU Version :",
+      "fieldName": "pSUVersion",
+      "command": "PSUVER?\r\n",
+      "validationRegex": "^(V\\d+)R\\d+",
+      "value": "",
+      "showField": true
+    },
+    {
+      "id": "fPGAVersion",
+      "label": "FPGA Version :",
+      "fieldName": "fPGAVersion",
+      "command": "FPGAVER?\r\n",
+      "validationRegex": "^(V\\d+)R\\d+",
+      "value": "",
+      "showField": true
+    }
+  ]
+}

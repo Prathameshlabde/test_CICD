@@ -1,0 +1,76 @@
+{
+  "fields": [
+    {
+      "id": "amplifierSerial",
+      "label": "Amplifier Serial :",
+      "fieldName": "amplifierSerial",
+      "command": "IDENT?\r\n",
+      "validationRegex": "",
+      "value": "",
+      "showField": false
+    },
+    {
+      "id": "Res01",
+      "label": "",
+      "fieldName": "Res01",
+      "command": "PEAKCOUNTERS? 0\r\n",
+      "validationRegex": "",
+      "value": "",
+      "showField": true
+    },
+    {
+      "id": "Res11",
+      "label": "",
+      "fieldName": "Res11",
+      "command": "PEAKCOUNTERS? 1\r\n",
+      "validationRegex": "",
+      "value": "",
+      "showField": true
+    },
+    {
+      "id": "Res21",
+      "label": "",
+      "fieldName": "Res21",
+      "command": "PEAKCOUNTERS? 2\r\n",
+      "validationRegex": "",
+      "value": "",
+      "showField": true
+    },
+    {
+      "id": "Res31",
+      "label": "",
+      "fieldName": "Res31",
+      "command": "PEAKCOUNTERS? 3\r\n",
+      "validationRegex": "",
+      "value": "",
+      "showField": true
+    },
+    {
+      "id": "Res41",
+      "label": "",
+      "fieldName": "Res41",
+      "command": "PEAKCOUNTERS? 4\r\n",
+      "validationRegex": "",
+      "value": "",
+      "showField": true
+    },
+    {
+      "id": "Res52",
+      "label": "",
+      "fieldName": "Res52",
+      "command": "PEAKCOUNTERS? 5\r\n",
+      "validationRegex": "",
+      "value": "",
+      "showField": true
+    },
+    {
+      "id": "Res62",
+      "label": "",
+      "fieldName": "Res62",
+      "command": "PEAKCOUNTERS? 6\r\n",
+      "validationRegex": "",
+      "value": "",
+      "showField": true
+    }
+  ]
+}

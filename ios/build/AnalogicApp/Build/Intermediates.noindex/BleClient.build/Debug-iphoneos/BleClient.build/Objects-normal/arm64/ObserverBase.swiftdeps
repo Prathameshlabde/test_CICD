@@ -1,0 +1,84 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ObserverBase"
+provides-nominal:
+- "9BleClient12ObserverBaseC"
+provides-member:
+- ["9BleClient12ObserverBaseC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "=="
+- "AssignmentPrecedence"
+- !private "AtomicCompareAndSwap"
+- "AtomicInt"
+- "Disposable"
+- "Event"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- "ObserverBase"
+- "ObserverType"
+- !private "rxAbstractMethod"
+depends-member:
+- ["s28CustomDebugStringConvertibleP", "completed"]
+- ["s28CustomDebugStringConvertibleP", "error"]
+- ["s28CustomDebugStringConvertibleP", "next"]
+- !private ["9BleClient10DisposableP", "AtomicCompareAndSwap"]
+- ["9BleClient10DisposableP", "E"]
+- ["9BleClient10DisposableP", ""]
+- !private ["9BleClient10DisposableP", "_isStopped"]
+- ["9BleClient10DisposableP", "dispose"]
+- ["9BleClient10DisposableP", "on"]
+- !private ["9BleClient10DisposableP", "onCore"]
+- !private ["9BleClient10DisposableP", "rxAbstractMethod"]
+- ["9BleClient5EventO", "completed"]
+- ["9BleClient5EventO", "error"]
+- ["9BleClient5EventO", "next"]
+- ["9BleClient16EventConvertibleP", "completed"]
+- ["9BleClient16EventConvertibleP", "error"]
+- ["9BleClient16EventConvertibleP", "next"]
+- !private ["9BleClient12ObserverBaseC", "AtomicCompareAndSwap"]
+- ["9BleClient12ObserverBaseC", "AtomicInt"]
+- ["9BleClient12ObserverBaseC", "E"]
+- ["9BleClient12ObserverBaseC", "Event"]
+- !private ["9BleClient12ObserverBaseC", "_isStopped"]
+- ["9BleClient12ObserverBaseC", "deinit"]
+- ["9BleClient12ObserverBaseC", "dispose"]
+- ["9BleClient12ObserverBaseC", "init"]
+- ["9BleClient12ObserverBaseC", "on"]
+- ["9BleClient12ObserverBaseC", "onCore"]
+- !private ["9BleClient12ObserverBaseC", "rxAbstractMethod"]
+- !private ["9BleClient12ObserverTypeP", "AtomicCompareAndSwap"]
+- ["9BleClient12ObserverTypeP", "E"]
+- ["9BleClient12ObserverTypeP", ""]
+- !private ["9BleClient12ObserverTypeP", "_isStopped"]
+- ["9BleClient12ObserverTypeP", "dispose"]
+- ["9BleClient12ObserverTypeP", "on"]
+- !private ["9BleClient12ObserverTypeP", "onCore"]
+- !private ["9BleClient12ObserverTypeP", "rxAbstractMethod"]
+depends-nominal:
+- "s28CustomDebugStringConvertibleP"
+- "9BleClient10DisposableP"
+- "9BleClient5EventO"
+- "9BleClient16EventConvertibleP"
+- "9BleClient12ObserverBaseC"
+- "9BleClient12ObserverTypeP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/Sundeep/Moved_Project/AnalogicApp/node_modules/react-native-ble-plx/ios/BleClient-Bridging-Header.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "bad366d612b9f4559c6b1f968ffdb36e"

@@ -1,0 +1,148 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Service"
+- "=="
+provides-nominal:
+- "9BleClient7ServiceC"
+provides-member:
+- ["9BleClient7ServiceC", ""]
+provides-dynamic-lookup:
+- "characteristics"
+- "discoverCharacteristics"
+- "discoverIncludedServices"
+- "includedServices"
+- "isPrimary"
+- "objectId"
+- "peripheral"
+- "service"
+- "uuid"
+depends-top-level:
+- "=="
+- "AssignmentPrecedence"
+- "Bool"
+- "CBUUID"
+- "Characteristic"
+- "Equatable"
+- "Observable"
+- "Peripheral"
+- "RxServiceType"
+- "Service"
+- "UInt"
+depends-member:
+- !private ["Sa", "map"]
+- !private ["SK", "map"]
+- !private ["s7CVarArgP", "map"]
+- !private ["9BleClient14CharacteristicC", "init"]
+- !private ["Sl", "map"]
+- !private ["10Foundation15ContiguousBytesP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["10Foundation12DataProtocolP", "map"]
+- !private ["Se", "map"]
+- !private ["SE", "map"]
+- ["SQ", "=="]
+- !private ["SQ", "Characteristic"]
+- !private ["SQ", "Service"]
+- ["SQ", ""]
+- !private ["SQ", "discoverCharacteristics"]
+- !private ["SQ", "discoverIncludedServices"]
+- !private ["SQ", "init"]
+- !private ["SQ", "map"]
+- !private ["SQ", "peripheral"]
+- !private ["SQ", "service"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["SH", "map"]
+- !private ["SM", "map"]
+- !private ["10Foundation19MutableDataProtocolP", "map"]
+- !private ["9BleClient10PeripheralC", "discoverCharacteristics"]
+- !private ["9BleClient10PeripheralC", "discoverIncludedServices"]
+- !private ["Sk", "map"]
+- !private ["Sm", "map"]
+- !private ["9BleClient13RxServiceTypeP", "characteristics"]
+- !private ["9BleClient13RxServiceTypeP", "includedServices"]
+- !private ["9BleClient13RxServiceTypeP", "isPrimary"]
+- !private ["9BleClient13RxServiceTypeP", "objectId"]
+- !private ["9BleClient13RxServiceTypeP", "uuid"]
+- !private ["ST", "map"]
+- ["9BleClient7ServiceC", "=="]
+- ["9BleClient7ServiceC", "Bool"]
+- ["9BleClient7ServiceC", "CBUUID"]
+- ["9BleClient7ServiceC", "Characteristic"]
+- ["9BleClient7ServiceC", "Observable"]
+- ["9BleClient7ServiceC", "Peripheral"]
+- ["9BleClient7ServiceC", "RxServiceType"]
+- ["9BleClient7ServiceC", "Service"]
+- ["9BleClient7ServiceC", "UInt"]
+- ["9BleClient7ServiceC", "characteristics"]
+- ["9BleClient7ServiceC", "deinit"]
+- ["9BleClient7ServiceC", "discoverCharacteristics"]
+- ["9BleClient7ServiceC", "discoverIncludedServices"]
+- ["9BleClient7ServiceC", "includedServices"]
+- ["9BleClient7ServiceC", "init"]
+- ["9BleClient7ServiceC", "isPrimary"]
+- ["9BleClient7ServiceC", "objectId"]
+- ["9BleClient7ServiceC", "peripheral"]
+- ["9BleClient7ServiceC", "service"]
+- ["9BleClient7ServiceC", "uuid"]
+- ["9BleClient16UUIDIdentifiableP", "=="]
+- !private ["9BleClient16UUIDIdentifiableP", "Characteristic"]
+- !private ["9BleClient16UUIDIdentifiableP", "Service"]
+- !private ["9BleClient16UUIDIdentifiableP", "init"]
+- !private ["9BleClient16UUIDIdentifiableP", "peripheral"]
+- !private ["9BleClient16UUIDIdentifiableP", "service"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s19_HasContiguousBytesP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+depends-nominal:
+- !private "Sa"
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "9BleClient14CharacteristicC"
+- !private "Sl"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "SH"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "9BleClient10PeripheralC"
+- !private "Sk"
+- !private "Sm"
+- !private "9BleClient13RxServiceTypeP"
+- !private "ST"
+- "9BleClient7ServiceC"
+- "9BleClient16UUIDIdentifiableP"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/Sundeep/Moved_Project/AnalogicApp/node_modules/react-native-ble-plx/ios/BleClient-Bridging-Header.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "dd68f78783927dd50f9d79c43c50b208"

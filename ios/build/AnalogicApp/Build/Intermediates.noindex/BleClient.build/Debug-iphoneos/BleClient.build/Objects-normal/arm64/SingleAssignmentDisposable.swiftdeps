@@ -1,0 +1,150 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SingleAssignmentDisposable"
+provides-nominal:
+- "9BleClient26SingleAssignmentDisposableC"
+provides-member:
+- ["9BleClient26SingleAssignmentDisposableC", ""]
+provides-dynamic-lookup:
+- "_disposable"
+- "_state"
+- "dispose"
+- "isDisposed"
+- "setDisposable"
+depends-top-level:
+- !private "!="
+- !private "&"
+- "=="
+- "AssignmentPrecedence"
+- !private "AtomicFlagSet"
+- "AtomicInt"
+- !private "AtomicOr"
+- "Bool"
+- "Cancelable"
+- "CastingPrecedence"
+- "Disposable"
+- "DisposeBase"
+- "FloatLiteralType"
+- "Int32"
+- "IntegerLiteralType"
+- "SingleAssignmentDisposable"
+- !private "StringLiteralType"
+- "UInt32"
+- !private "rxFatalError"
+- !private "~="
+depends-member:
+- !private ["9BleClient10CancelableP", "AtomicFlagSet"]
+- !private ["9BleClient10CancelableP", "AtomicOr"]
+- !private ["9BleClient10CancelableP", "DisposeState"]
+- !private ["9BleClient10CancelableP", "DisposeStateInt32"]
+- ["9BleClient10CancelableP", ""]
+- !private ["9BleClient10CancelableP", "_disposable"]
+- !private ["9BleClient10CancelableP", "_state"]
+- ["9BleClient10CancelableP", "dispose"]
+- ["9BleClient10CancelableP", "isDisposed"]
+- !private ["9BleClient10CancelableP", "rxFatalError"]
+- !private ["9BleClient10DisposableP", "AtomicFlagSet"]
+- !private ["9BleClient10DisposableP", "AtomicOr"]
+- !private ["9BleClient10DisposableP", "DisposeState"]
+- !private ["9BleClient10DisposableP", "DisposeStateInt32"]
+- ["9BleClient10DisposableP", ""]
+- !private ["9BleClient10DisposableP", "_disposable"]
+- !private ["9BleClient10DisposableP", "_state"]
+- ["9BleClient10DisposableP", "dispose"]
+- ["9BleClient10DisposableP", "isDisposed"]
+- !private ["9BleClient10DisposableP", "rxFatalError"]
+- !private ["9BleClient11DisposeBaseC", "AtomicFlagSet"]
+- ["9BleClient11DisposeBaseC", "AtomicInt"]
+- !private ["9BleClient11DisposeBaseC", "AtomicOr"]
+- ["9BleClient11DisposeBaseC", "Bool"]
+- ["9BleClient11DisposeBaseC", "Disposable"]
+- !private ["9BleClient11DisposeBaseC", "DisposeState"]
+- !private ["9BleClient11DisposeBaseC", "DisposeStateInt32"]
+- ["9BleClient11DisposeBaseC", "Int32"]
+- ["9BleClient11DisposeBaseC", "UInt32"]
+- ["9BleClient11DisposeBaseC", ""]
+- ["9BleClient11DisposeBaseC", "_disposable"]
+- ["9BleClient11DisposeBaseC", "_state"]
+- ["9BleClient11DisposeBaseC", "dispose"]
+- ["9BleClient11DisposeBaseC", "init"]
+- ["9BleClient11DisposeBaseC", "isDisposed"]
+- !private ["9BleClient11DisposeBaseC", "rxFatalError"]
+- ["9BleClient11DisposeBaseC", "setDisposable"]
+- ["SQ", "=="]
+- ["SQ", "RawValue"]
+- !private ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "disposableSet"]
+- !private ["SQ", "disposed"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "rawValue"]
+- ["SH", "=="]
+- ["SH", "RawValue"]
+- !private ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "disposableSet"]
+- !private ["SH", "disposed"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "rawValue"]
+- ["SY", "=="]
+- ["SY", "RawValue"]
+- !private ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- ["SY", "_rawHashValue"]
+- !private ["SY", "disposableSet"]
+- !private ["SY", "disposed"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "rawValue"]
+- !private ["9BleClient26SingleAssignmentDisposableC", "AtomicFlagSet"]
+- ["9BleClient26SingleAssignmentDisposableC", "AtomicInt"]
+- !private ["9BleClient26SingleAssignmentDisposableC", "AtomicOr"]
+- ["9BleClient26SingleAssignmentDisposableC", "Bool"]
+- ["9BleClient26SingleAssignmentDisposableC", "Disposable"]
+- !private ["9BleClient26SingleAssignmentDisposableC", "DisposeState"]
+- !private ["9BleClient26SingleAssignmentDisposableC", "DisposeStateInt32"]
+- ["9BleClient26SingleAssignmentDisposableC", "Int32"]
+- ["9BleClient26SingleAssignmentDisposableC", "UInt32"]
+- !private ["9BleClient26SingleAssignmentDisposableC", "_disposable"]
+- !private ["9BleClient26SingleAssignmentDisposableC", "_state"]
+- ["9BleClient26SingleAssignmentDisposableC", "deinit"]
+- ["9BleClient26SingleAssignmentDisposableC", "dispose"]
+- ["9BleClient26SingleAssignmentDisposableC", "init"]
+- ["9BleClient26SingleAssignmentDisposableC", "isDisposed"]
+- !private ["9BleClient26SingleAssignmentDisposableC", "rxFatalError"]
+- ["9BleClient26SingleAssignmentDisposableC", "setDisposable"]
+depends-nominal:
+- "9BleClient10CancelableP"
+- "9BleClient10DisposableP"
+- "9BleClient11DisposeBaseC"
+- "SQ"
+- "SH"
+- "SY"
+- "9BleClient26SingleAssignmentDisposableC"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/Sundeep/Moved_Project/AnalogicApp/node_modules/react-native-ble-plx/ios/BleClient-Bridging-Header.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "87dbe08f2dab6cbeea6348986d101d01"

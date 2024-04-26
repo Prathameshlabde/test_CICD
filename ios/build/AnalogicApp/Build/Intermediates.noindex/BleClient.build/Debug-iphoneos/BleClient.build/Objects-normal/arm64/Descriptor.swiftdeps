@@ -1,0 +1,99 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Descriptor"
+- "=="
+provides-nominal:
+- "9BleClient10DescriptorC"
+provides-member:
+- ["9BleClient10DescriptorC", ""]
+provides-dynamic-lookup:
+- "characteristic"
+- "descriptor"
+- "monitorValueUpdate"
+- "monitorWrite"
+- "objectId"
+- "readValue"
+- "uuid"
+- "value"
+- "writeValue"
+depends-top-level:
+- "=="
+- "AssignmentPrecedence"
+- "Bool"
+- "CBUUID"
+- "Characteristic"
+- "Data"
+- "Descriptor"
+- "Equatable"
+- "Observable"
+- "RxDescriptorType"
+- "UInt"
+depends-member:
+- !private ["9BleClient14CharacteristicC", "service"]
+- ["9BleClient10DescriptorC", "=="]
+- ["9BleClient10DescriptorC", "CBUUID"]
+- ["9BleClient10DescriptorC", "Characteristic"]
+- ["9BleClient10DescriptorC", "Data"]
+- ["9BleClient10DescriptorC", "Descriptor"]
+- ["9BleClient10DescriptorC", "Observable"]
+- ["9BleClient10DescriptorC", "RxDescriptorType"]
+- ["9BleClient10DescriptorC", "UInt"]
+- ["9BleClient10DescriptorC", "characteristic"]
+- ["9BleClient10DescriptorC", "deinit"]
+- ["9BleClient10DescriptorC", "descriptor"]
+- ["9BleClient10DescriptorC", "init"]
+- ["9BleClient10DescriptorC", "monitorValueUpdate"]
+- ["9BleClient10DescriptorC", "monitorWrite"]
+- ["9BleClient10DescriptorC", "objectId"]
+- ["9BleClient10DescriptorC", "readValue"]
+- ["9BleClient10DescriptorC", "uuid"]
+- ["9BleClient10DescriptorC", "value"]
+- ["9BleClient10DescriptorC", "writeValue"]
+- ["SQ", "=="]
+- ["SQ", ""]
+- !private ["SQ", "characteristic"]
+- !private ["SQ", "descriptor"]
+- !private ["SQ", "monitorValueUpdate"]
+- !private ["SQ", "monitorWrite"]
+- !private ["SQ", "peripheral"]
+- !private ["SQ", "readValue"]
+- !private ["SQ", "service"]
+- !private ["SQ", "writeValue"]
+- !private ["9BleClient10PeripheralC", "monitorValueUpdate"]
+- !private ["9BleClient10PeripheralC", "monitorWrite"]
+- !private ["9BleClient10PeripheralC", "readValue"]
+- !private ["9BleClient10PeripheralC", "writeValue"]
+- !private ["9BleClient16RxDescriptorTypeP", "objectId"]
+- !private ["9BleClient16RxDescriptorTypeP", "uuid"]
+- !private ["9BleClient16RxDescriptorTypeP", "value"]
+- !private ["9BleClient7ServiceC", "peripheral"]
+- !private ["9BleClient16UUIDIdentifiableP", "peripheral"]
+- !private ["9BleClient16UUIDIdentifiableP", "service"]
+depends-nominal:
+- !private "9BleClient14CharacteristicC"
+- "9BleClient10DescriptorC"
+- "SQ"
+- !private "9BleClient10PeripheralC"
+- !private "9BleClient16RxDescriptorTypeP"
+- !private "9BleClient7ServiceC"
+- !private "9BleClient16UUIDIdentifiableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/Sundeep/Moved_Project/AnalogicApp/node_modules/react-native-ble-plx/ios/BleClient-Bridging-Header.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "b7f4e8d12124749a0ef81e48a5cf8a62"

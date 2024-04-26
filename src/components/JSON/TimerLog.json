@@ -1,0 +1,22 @@
+{
+  "fields": [
+    {
+      "id": "amplifierSerial",
+      "label": "Amplifier Serial :",
+      "fieldName": "amplifierSerial",
+      "command": "IDENT?\r\n",
+      "validationRegex": "",
+      "value": "",
+      "showField": false
+    },
+    {
+      "id": "timerLog",
+      "label": "TIMER Status :",
+      "fieldName": "timerLog",
+      "command": "AMPTIMERS?\r\n",
+      "validationRegex": "",
+      "value": "",
+      "showField": true
+    }
+  ]
+}

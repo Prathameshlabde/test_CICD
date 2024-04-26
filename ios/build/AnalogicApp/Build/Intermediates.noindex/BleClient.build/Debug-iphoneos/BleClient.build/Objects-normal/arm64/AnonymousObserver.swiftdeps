@@ -1,0 +1,53 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AnonymousObserver"
+provides-nominal:
+- "9BleClient17AnonymousObserverC"
+provides-member:
+- ["9BleClient17AnonymousObserverC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AnonymousObserver"
+- "AssignmentPrecedence"
+- "Event"
+- "ObserverBase"
+- "Void"
+depends-member:
+- ["9BleClient17AnonymousObserverC", "Element"]
+- ["9BleClient17AnonymousObserverC", "Event"]
+- ["9BleClient17AnonymousObserverC", "EventHandler"]
+- ["9BleClient17AnonymousObserverC", "Void"]
+- !private ["9BleClient17AnonymousObserverC", "_eventHandler"]
+- ["9BleClient17AnonymousObserverC", "deinit"]
+- ["9BleClient17AnonymousObserverC", "init"]
+- ["9BleClient17AnonymousObserverC", "onCore"]
+- ["9BleClient10DisposableP", ""]
+- !private ["9BleClient10DisposableP", "_eventHandler"]
+- !private ["9BleClient10DisposableP", "init"]
+- ["9BleClient12ObserverBaseC", "Element"]
+- ["9BleClient12ObserverBaseC", "Event"]
+- ["9BleClient12ObserverBaseC", "EventHandler"]
+- ["9BleClient12ObserverBaseC", "Void"]
+- ["9BleClient12ObserverBaseC", ""]
+- ["9BleClient12ObserverBaseC", "_eventHandler"]
+- ["9BleClient12ObserverBaseC", "init"]
+- ["9BleClient12ObserverBaseC", "onCore"]
+- ["9BleClient12ObserverTypeP", ""]
+- !private ["9BleClient12ObserverTypeP", "_eventHandler"]
+- !private ["9BleClient12ObserverTypeP", "init"]
+depends-nominal:
+- "9BleClient17AnonymousObserverC"
+- "9BleClient10DisposableP"
+- "9BleClient12ObserverBaseC"
+- "9BleClient12ObserverTypeP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/Sundeep/Moved_Project/AnalogicApp/node_modules/react-native-ble-plx/ios/BleClient-Bridging-Header.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "9020e4ee63f76111986774b74a427bd3"

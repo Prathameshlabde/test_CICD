@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AnalogicApp.iml" filepath="$PROJECT_DIR$/AnalogicApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-145101639/AnalogicApp.@react-native-community_netinfo.iml" filepath="$PROJECT_DIR$/.idea/modules/-145101639/AnalogicApp.@react-native-community_netinfo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-145101639/AnalogicApp.@react-native-community_netinfo.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-145101639/AnalogicApp.@react-native-community_netinfo.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-145101639/AnalogicApp.@react-native-community_netinfo.main.iml" filepath="$PROJECT_DIR$/.idea/modules/-145101639/AnalogicApp.@react-native-community_netinfo.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-145101639/AnalogicApp.@react-native-community_netinfo.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-145101639/AnalogicApp.@react-native-community_netinfo.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/66504608/AnalogicApp.@react-native-community_picker.iml" filepath="$PROJECT_DIR$/.idea/modules/66504608/AnalogicApp.@react-native-community_picker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/66504608/AnalogicApp.@react-native-community_picker.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/66504608/AnalogicApp.@react-native-community_picker.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/66504608/AnalogicApp.@react-native-community_picker.main.iml" filepath="$PROJECT_DIR$/.idea/modules/66504608/AnalogicApp.@react-native-community_picker.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/66504608/AnalogicApp.@react-native-community_picker.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/66504608/AnalogicApp.@react-native-community_picker.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AnalogicApp.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AnalogicApp.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AnalogicApp.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AnalogicApp.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AnalogicApp.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AnalogicApp.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AnalogicApp.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AnalogicApp.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2097160873/AnalogicApp.react-native-ble-manager.iml" filepath="$PROJECT_DIR$/.idea/modules/-2097160873/AnalogicApp.react-native-ble-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2097160873/AnalogicApp.react-native-ble-manager.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-2097160873/AnalogicApp.react-native-ble-manager.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2097160873/AnalogicApp.react-native-ble-manager.main.iml" filepath="$PROJECT_DIR$/.idea/modules/-2097160873/AnalogicApp.react-native-ble-manager.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2097160873/AnalogicApp.react-native-ble-manager.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-2097160873/AnalogicApp.react-native-ble-manager.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1151858086/AnalogicApp.react-native-ble-plx.iml" filepath="$PROJECT_DIR$/.idea/modules/1151858086/AnalogicApp.react-native-ble-plx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1151858086/AnalogicApp.react-native-ble-plx.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/1151858086/AnalogicApp.react-native-ble-plx.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1151858086/AnalogicApp.react-native-ble-plx.main.iml" filepath="$PROJECT_DIR$/.idea/modules/1151858086/AnalogicApp.react-native-ble-plx.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1151858086/AnalogicApp.react-native-ble-plx.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/1151858086/AnalogicApp.react-native-ble-plx.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-568250347/AnalogicApp.react-native-bluetooth-status.iml" filepath="$PROJECT_DIR$/.idea/modules/-568250347/AnalogicApp.react-native-bluetooth-status.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-568250347/AnalogicApp.react-native-bluetooth-status.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-568250347/AnalogicApp.react-native-bluetooth-status.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-568250347/AnalogicApp.react-native-bluetooth-status.main.iml" filepath="$PROJECT_DIR$/.idea/modules/-568250347/AnalogicApp.react-native-bluetooth-status.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-568250347/AnalogicApp.react-native-bluetooth-status.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-568250347/AnalogicApp.react-native-bluetooth-status.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-189154335/AnalogicApp.react-native-device-info.iml" filepath="$PROJECT_DIR$/.idea/modules/-189154335/AnalogicApp.react-native-device-info.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-189154335/AnalogicApp.react-native-device-info.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-189154335/AnalogicApp.react-native-device-info.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-189154335/AnalogicApp.react-native-device-info.main.iml" filepath="$PROJECT_DIR$/.idea/modules/-189154335/AnalogicApp.react-native-device-info.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-189154335/AnalogicApp.react-native-device-info.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-189154335/AnalogicApp.react-native-device-info.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1439953396/AnalogicApp.react-native-linear-gradient.iml" filepath="$PROJECT_DIR$/.idea/modules/1439953396/AnalogicApp.react-native-linear-gradient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1439953396/AnalogicApp.react-native-linear-gradient.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/1439953396/AnalogicApp.react-native-linear-gradient.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1439953396/AnalogicApp.react-native-linear-gradient.main.iml" filepath="$PROJECT_DIR$/.idea/modules/1439953396/AnalogicApp.react-native-linear-gradient.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1439953396/AnalogicApp.react-native-linear-gradient.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/1439953396/AnalogicApp.react-native-linear-gradient.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/482295407/AnalogicApp.react-native-sqlite-storage.iml" filepath="$PROJECT_DIR$/.idea/modules/482295407/AnalogicApp.react-native-sqlite-storage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/482295407/AnalogicApp.react-native-sqlite-storage.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/482295407/AnalogicApp.react-native-sqlite-storage.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/482295407/AnalogicApp.react-native-sqlite-storage.main.iml" filepath="$PROJECT_DIR$/.idea/modules/482295407/AnalogicApp.react-native-sqlite-storage.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/482295407/AnalogicApp.react-native-sqlite-storage.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/482295407/AnalogicApp.react-native-sqlite-storage.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1530885428/AnalogicApp.react-native-vector-icons.iml" filepath="$PROJECT_DIR$/.idea/modules/1530885428/AnalogicApp.react-native-vector-icons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1530885428/AnalogicApp.react-native-vector-icons.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/1530885428/AnalogicApp.react-native-vector-icons.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1530885428/AnalogicApp.react-native-vector-icons.main.iml" filepath="$PROJECT_DIR$/.idea/modules/1530885428/AnalogicApp.react-native-vector-icons.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1530885428/AnalogicApp.react-native-vector-icons.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/1530885428/AnalogicApp.react-native-vector-icons.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2010196971/AnalogicApp.react-native-webview.iml" filepath="$PROJECT_DIR$/.idea/modules/-2010196971/AnalogicApp.react-native-webview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2010196971/AnalogicApp.react-native-webview.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-2010196971/AnalogicApp.react-native-webview.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2010196971/AnalogicApp.react-native-webview.main.iml" filepath="$PROJECT_DIR$/.idea/modules/-2010196971/AnalogicApp.react-native-webview.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2010196971/AnalogicApp.react-native-webview.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-2010196971/AnalogicApp.react-native-webview.unitTest.iml" />
+    </modules>
+  </component>
+</project>

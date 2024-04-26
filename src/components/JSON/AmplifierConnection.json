@@ -1,0 +1,108 @@
+{
+  "fields": [
+    {
+      "id": "CIBSWVersion",
+      "label": "CIB SW Version :",
+      "fieldName": "CIBSWVersion",
+      "command": "SWVER?\r\n",
+      "validationRegex": "^(V\\d+)R",
+      "value": ""
+    },
+    {
+      "id": "CIBSWRevision",
+      "label": "CIB SW Revision :",
+      "fieldName": "CIBSWRevision",
+      "command": "SWVER?\r\n",
+      "validationRegex": "^V\\d+(R\\d+)\\s+",
+      "value": ""
+    },
+    {
+      "id": "CIBSWDate",
+      "label": "CIB SW Date :",
+      "fieldName": "CIBSWDate",
+      "command": "SWVER?\r\n",
+      "validationRegex": "^V\\d+R\\d+\\s+([\\s\\S]+?\\d{4})\\s+\\d+\\:\\d+\\:\\d+",
+      "value": ""
+    },
+    {
+      "id": "CIBSWTime",
+      "label": "CIB SW Time :",
+      "fieldName": "CIBSWTime",
+      "command": "SWVER?\r\n",
+      "validationRegex": "^V\\d+R\\d+\\s+[\\s\\S]+?\\d{4}\\s+(\\d{1,2}\\:\\d{1,2}\\:\\d{1,2})",
+      "value": ""
+    },
+    {
+      "id": "AmpplifierType",
+      "label": "Amplifier Type :",
+      "fieldName": "AmpplifierType",
+      "command": "MODEL?\r\n",
+      "validationRegex": "",
+      "value": ""
+    },
+    {
+      "id": "AmplifierSerial",
+      "label": "Amplifier Serial :",
+      "fieldName": "AmplifierSerial",
+      "command": "IDENT?\r\n",
+      "validationRegex": "",
+      "value": ""
+    },
+    {
+      "id": "AmplifierStatus",
+      "label": "Amplifier Status :",
+      "fieldName": "AmplifierStatus",
+      "command": "ST?\r\n",
+      "validationRegex": "",
+      "value": ""
+    },
+    {
+      "id": "AmplifierWDate",
+      "label": "Amplifier Date :",
+      "fieldName": "AmplifierWDate",
+      "command": "AMPDATE?\r\n",
+      "validationRegex": "",
+      "value": ""
+    },
+    {
+      "id": "AmplifierTime",
+      "label": "Amplifier Time :",
+      "fieldName": "AmplifierTime",
+      "command": "AMPTIME?\r\n",
+      "validationRegex": "",
+      "value": ""
+    },
+    {
+      "id": "PSUVersion",
+      "label": "PSU Version :",
+      "fieldName": "PSUVersion",
+      "command": "PSUVER?\r\n",
+      "validationRegex": "^(V\\d+)R\\d+",
+      "value": ""
+    },
+    {
+      "id": "PSURevision",
+      "label": "PSU Revision :",
+      "fieldName": "PSURevision",
+      "command": "PSUVER?\r\n",
+      "validationRegex": "^V\\d+(R\\d+)",
+      "value": ""
+    },
+    {
+      "id": "FPGAVersion",
+      "label": "FPGA Version :",
+      "fieldName": "FPGAVersion",
+      "command": "FPGAVER?\r\n",
+      "validationRegex": "^(V\\d+)R\\d+",
+      "value": ""
+    },
+    {
+      "id": "FPGARevision",
+      "label": "FPGA Revision :",
+      "fieldName": "FPGARevision",
+      "command": "FPGAVER?\r\n",
+      "validationRegex": "^V\\d+(R\\d+)",
+      "value": ""
+    }
+  ]
+}

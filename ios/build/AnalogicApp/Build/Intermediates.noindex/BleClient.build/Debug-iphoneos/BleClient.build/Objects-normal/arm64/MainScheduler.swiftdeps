@@ -1,0 +1,186 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MainScheduler"
+provides-nominal:
+- "9BleClient13MainSchedulerC"
+provides-member:
+- ["9BleClient13MainSchedulerC", ""]
+provides-dynamic-lookup:
+- "_mainQueue"
+- "asyncInstance"
+- "ensureExecutingOnScheduler"
+- "instance"
+- "numberEnqueued"
+- "scheduleInternal"
+depends-top-level:
+- !private "!"
+- !private "&&"
+- !private "=="
+- !private "??"
+- "AssignmentPrecedence"
+- !private "AtomicDecrement"
+- !private "AtomicIncrement"
+- "AtomicInt"
+- "DispatchQueue"
+- "Disposable"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- "MainScheduler"
+- "SerialDispatchQueueScheduler"
+- !private "SingleAssignmentDisposable"
+- "String"
+- !private "StringLiteralType"
+- !private "rxFatalError"
+depends-member:
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "isMain"]
+- ["s7CVarArgP", "main"]
+- !private ["9BleClient10CancelableP", "init"]
+- !private ["9BleClient10CancelableP", "isDisposed"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "isMain"]
+- ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "isMain"]
+- ["s23CustomStringConvertibleP", "main"]
+- !private ["So18OS_dispatch_objectC", "async"]
+- !private ["So18OS_dispatch_objectC", "isMain"]
+- ["So18OS_dispatch_objectC", "main"]
+- !private ["So17OS_dispatch_queueC", "async"]
+- !private ["So17OS_dispatch_queueC", "isMain"]
+- ["So17OS_dispatch_queueC", "main"]
+- !private ["9BleClient10DisposableP", "init"]
+- !private ["9BleClient10DisposableP", "isDisposed"]
+- !private ["9BleClient11DisposeBaseC", "init"]
+- !private ["9BleClient11DisposeBaseC", "isDisposed"]
+- !private ["SQ", "async"]
+- !private ["SQ", "isMain"]
+- ["SQ", "main"]
+- !private ["SH", "async"]
+- !private ["SH", "isMain"]
+- ["SH", "main"]
+- !private ["9BleClient22ImmediateSchedulerTypeP", "AtomicDecrement"]
+- !private ["9BleClient22ImmediateSchedulerTypeP", "AtomicIncrement"]
+- ["9BleClient22ImmediateSchedulerTypeP", "DispatchQueue"]
+- ["9BleClient22ImmediateSchedulerTypeP", "MainScheduler"]
+- ["9BleClient22ImmediateSchedulerTypeP", "SerialDispatchQueueScheduler"]
+- !private ["9BleClient22ImmediateSchedulerTypeP", "SingleAssignmentDisposable"]
+- ["9BleClient22ImmediateSchedulerTypeP", ""]
+- !private ["9BleClient22ImmediateSchedulerTypeP", "_mainQueue"]
+- ["9BleClient22ImmediateSchedulerTypeP", "init"]
+- !private ["9BleClient22ImmediateSchedulerTypeP", "numberEnqueued"]
+- !private ["9BleClient22ImmediateSchedulerTypeP", "rxFatalError"]
+- !private ["9BleClient13MainSchedulerC", "AtomicDecrement"]
+- !private ["9BleClient13MainSchedulerC", "AtomicIncrement"]
+- ["9BleClient13MainSchedulerC", "AtomicInt"]
+- ["9BleClient13MainSchedulerC", "DispatchQueue"]
+- ["9BleClient13MainSchedulerC", "Disposable"]
+- ["9BleClient13MainSchedulerC", "MainScheduler"]
+- ["9BleClient13MainSchedulerC", "SerialDispatchQueueScheduler"]
+- !private ["9BleClient13MainSchedulerC", "SingleAssignmentDisposable"]
+- ["9BleClient13MainSchedulerC", "String"]
+- !private ["9BleClient13MainSchedulerC", "_mainQueue"]
+- ["9BleClient13MainSchedulerC", "asyncInstance"]
+- ["9BleClient13MainSchedulerC", "deinit"]
+- ["9BleClient13MainSchedulerC", "ensureExecutingOnScheduler"]
+- ["9BleClient13MainSchedulerC", "init"]
+- ["9BleClient13MainSchedulerC", "instance"]
+- ["9BleClient13MainSchedulerC", "numberEnqueued"]
+- !private ["9BleClient13MainSchedulerC", "rxFatalError"]
+- ["9BleClient13MainSchedulerC", "scheduleInternal"]
+- !private ["So8NSObjectC", "async"]
+- !private ["So8NSObjectC", "isMain"]
+- ["So8NSObjectC", "main"]
+- !private ["So8NSObjectP", "async"]
+- !private ["So8NSObjectP", "isMain"]
+- ["So8NSObjectP", "main"]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "isMain"]
+- ["So9OS_objectC", "main"]
+- !private ["9BleClient18ReactiveCompatibleP", "async"]
+- !private ["9BleClient18ReactiveCompatibleP", "isMain"]
+- ["9BleClient18ReactiveCompatibleP", "main"]
+- !private ["7Combine9SchedulerP", "async"]
+- !private ["7Combine9SchedulerP", "isMain"]
+- ["7Combine9SchedulerP", "main"]
+- !private ["9BleClient13SchedulerTypeP", "AtomicDecrement"]
+- !private ["9BleClient13SchedulerTypeP", "AtomicIncrement"]
+- ["9BleClient13SchedulerTypeP", "DispatchQueue"]
+- ["9BleClient13SchedulerTypeP", "MainScheduler"]
+- ["9BleClient13SchedulerTypeP", "SerialDispatchQueueScheduler"]
+- !private ["9BleClient13SchedulerTypeP", "SingleAssignmentDisposable"]
+- ["9BleClient13SchedulerTypeP", ""]
+- !private ["9BleClient13SchedulerTypeP", "_mainQueue"]
+- ["9BleClient13SchedulerTypeP", "init"]
+- !private ["9BleClient13SchedulerTypeP", "numberEnqueued"]
+- !private ["9BleClient13SchedulerTypeP", "rxFatalError"]
+- !private ["9BleClient28SerialDispatchQueueSchedulerC", "AtomicDecrement"]
+- !private ["9BleClient28SerialDispatchQueueSchedulerC", "AtomicIncrement"]
+- ["9BleClient28SerialDispatchQueueSchedulerC", "AtomicInt"]
+- ["9BleClient28SerialDispatchQueueSchedulerC", "DispatchQueue"]
+- ["9BleClient28SerialDispatchQueueSchedulerC", "Disposable"]
+- ["9BleClient28SerialDispatchQueueSchedulerC", "MainScheduler"]
+- ["9BleClient28SerialDispatchQueueSchedulerC", "SerialDispatchQueueScheduler"]
+- !private ["9BleClient28SerialDispatchQueueSchedulerC", "SingleAssignmentDisposable"]
+- ["9BleClient28SerialDispatchQueueSchedulerC", "String"]
+- ["9BleClient28SerialDispatchQueueSchedulerC", ""]
+- ["9BleClient28SerialDispatchQueueSchedulerC", "_mainQueue"]
+- ["9BleClient28SerialDispatchQueueSchedulerC", "asyncInstance"]
+- ["9BleClient28SerialDispatchQueueSchedulerC", "ensureExecutingOnScheduler"]
+- ["9BleClient28SerialDispatchQueueSchedulerC", "init"]
+- ["9BleClient28SerialDispatchQueueSchedulerC", "instance"]
+- ["9BleClient28SerialDispatchQueueSchedulerC", "numberEnqueued"]
+- !private ["9BleClient28SerialDispatchQueueSchedulerC", "rxFatalError"]
+- ["9BleClient28SerialDispatchQueueSchedulerC", "scheduleInternal"]
+- !private ["9BleClient26SingleAssignmentDisposableC", "deinit"]
+- !private ["9BleClient26SingleAssignmentDisposableC", "init"]
+- !private ["9BleClient26SingleAssignmentDisposableC", "isDisposed"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isMain"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "async"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isMain"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "main"]
+depends-nominal:
+- "s7CVarArgP"
+- !private "9BleClient10CancelableP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "So18OS_dispatch_objectC"
+- "So17OS_dispatch_queueC"
+- !private "9BleClient10DisposableP"
+- !private "9BleClient11DisposeBaseC"
+- "SQ"
+- "SH"
+- "9BleClient22ImmediateSchedulerTypeP"
+- "9BleClient13MainSchedulerC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So9OS_objectC"
+- "9BleClient18ReactiveCompatibleP"
+- "7Combine9SchedulerP"
+- "9BleClient13SchedulerTypeP"
+- "9BleClient28SerialDispatchQueueSchedulerC"
+- !private "9BleClient26SingleAssignmentDisposableC"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/Sundeep/Moved_Project/AnalogicApp/node_modules/react-native-ble-plx/ios/BleClient-Bridging-Header.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "8ea514fb4580c9986fe5264d2e79bc3c"

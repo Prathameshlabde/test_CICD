@@ -1,0 +1,22 @@
+{
+  "fields": [
+    {
+      "id": "amplifierSerial",
+      "label": "Amplifier Serial :",
+      "fieldName": "amplifierSerial",
+      "command": "IDENT?\r\n",
+      "validationRegex": "",
+      "value": "",
+      "showField": false
+    },
+    {
+      "id": "Res1",
+      "label": "POWER :",
+      "fieldName": "Res2",
+      "command": "JTRCOUNTERS? FIN\r\n",
+      "validationRegex": "",
+      "value": "",
+      "showField": true
+    }
+  ]
+}

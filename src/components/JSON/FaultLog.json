@@ -1,0 +1,31 @@
+{
+  "fields": [
+    {
+      "id": "amplifierSerial",
+      "label": "Amplifier Serial :",
+      "fieldName": "amplifierSerial",
+      "command": "IDENT?\r\n",
+      "validationRegex": "",
+      "value": "",
+      "showField": false
+    },
+    {
+      "id": "faultStatus",
+      "label": "Fault Status :",
+      "fieldName": "faultStatus",
+      "command": "FAULT?\r\n",
+      "validationRegex": "",
+      "value": "",
+      "showField": true
+    },
+    {
+      "id": "flTotalNumberOfLogs",
+      "label": "Total Logs Present :",
+      "fieldName": "flTotalNumberOfLogs",
+      "command": "FAULT? *\r\n",
+      "validationRegex": "",
+      "value": "",
+      "showField": true
+    }
+  ]
+}

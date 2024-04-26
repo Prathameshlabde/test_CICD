@@ -1,0 +1,212 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RefCountDisposable"
+- "RefCountInnerDisposable"
+provides-nominal:
+- "9BleClient18RefCountDisposableC"
+- "9BleClient23RefCountInnerDisposableC"
+provides-member:
+- ["9BleClient18RefCountDisposableC", ""]
+- ["9BleClient23RefCountInnerDisposableC", ""]
+provides-dynamic-lookup:
+- "_count"
+- "_disposable"
+- "_isDisposed"
+- "_lock"
+- "_parent"
+- "_primaryDisposed"
+- "dispose"
+- "isDisposed"
+- "release"
+- "retain"
+depends-top-level:
+- !private "!"
+- !private "&&"
+- !private "=="
+- !private ">="
+- "AssignmentPrecedence"
+- !private "AtomicCompareAndSwap"
+- "AtomicInt"
+- "Bool"
+- "BooleanLiteralType"
+- "Cancelable"
+- "CastingPrecedence"
+- "Disposable"
+- !private "Disposables"
+- "DisposeBase"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- "RefCountDisposable"
+- "RefCountInnerDisposable"
+- "SpinLock"
+- "StringLiteralType"
+- !private "decrementChecked"
+- !private "incrementChecked"
+- !private "rxFatalError"
+depends-member:
+- !private ["s7CVarArgP", "calculateLocked"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "lock"]
+- !private ["s7CVarArgP", "unlock"]
+- !private ["9BleClient10CancelableP", "Disposables"]
+- !private ["9BleClient10CancelableP", "RefCountInnerDisposable"]
+- ["9BleClient10CancelableP", "SpinLock"]
+- ["9BleClient10CancelableP", ""]
+- !private ["9BleClient10CancelableP", "_count"]
+- !private ["9BleClient10CancelableP", "_disposable"]
+- !private ["9BleClient10CancelableP", "_lock"]
+- !private ["9BleClient10CancelableP", "_primaryDisposed"]
+- !private ["9BleClient10CancelableP", "decrementChecked"]
+- ["9BleClient10CancelableP", "dispose"]
+- !private ["9BleClient10CancelableP", "incrementChecked"]
+- ["9BleClient10CancelableP", "isDisposed"]
+- !private ["9BleClient10CancelableP", "release"]
+- !private ["9BleClient10CancelableP", "rxFatalError"]
+- !private ["s28CustomDebugStringConvertibleP", "calculateLocked"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "lock"]
+- !private ["s28CustomDebugStringConvertibleP", "unlock"]
+- !private ["s23CustomStringConvertibleP", "calculateLocked"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "lock"]
+- !private ["s23CustomStringConvertibleP", "unlock"]
+- !private ["9BleClient10DisposableP", "AtomicCompareAndSwap"]
+- !private ["9BleClient10DisposableP", "Disposables"]
+- !private ["9BleClient10DisposableP", "RefCountInnerDisposable"]
+- ["9BleClient10DisposableP", "SpinLock"]
+- ["9BleClient10DisposableP", ""]
+- !private ["9BleClient10DisposableP", "_count"]
+- !private ["9BleClient10DisposableP", "_disposable"]
+- !private ["9BleClient10DisposableP", "_isDisposed"]
+- !private ["9BleClient10DisposableP", "_lock"]
+- !private ["9BleClient10DisposableP", "_parent"]
+- !private ["9BleClient10DisposableP", "_primaryDisposed"]
+- !private ["9BleClient10DisposableP", "decrementChecked"]
+- ["9BleClient10DisposableP", "dispose"]
+- !private ["9BleClient10DisposableP", "incrementChecked"]
+- !private ["9BleClient10DisposableP", "init"]
+- ["9BleClient10DisposableP", "isDisposed"]
+- !private ["9BleClient10DisposableP", "release"]
+- !private ["9BleClient10DisposableP", "rxFatalError"]
+- !private ["9BleClient11DisposablesV", "create"]
+- !private ["9BleClient11DisposeBaseC", "AtomicCompareAndSwap"]
+- ["9BleClient11DisposeBaseC", "AtomicInt"]
+- ["9BleClient11DisposeBaseC", "Bool"]
+- ["9BleClient11DisposeBaseC", "Disposable"]
+- !private ["9BleClient11DisposeBaseC", "Disposables"]
+- ["9BleClient11DisposeBaseC", "RefCountDisposable"]
+- !private ["9BleClient11DisposeBaseC", "RefCountInnerDisposable"]
+- ["9BleClient11DisposeBaseC", "SpinLock"]
+- ["9BleClient11DisposeBaseC", ""]
+- ["9BleClient11DisposeBaseC", "_count"]
+- ["9BleClient11DisposeBaseC", "_disposable"]
+- ["9BleClient11DisposeBaseC", "_isDisposed"]
+- ["9BleClient11DisposeBaseC", "_lock"]
+- ["9BleClient11DisposeBaseC", "_parent"]
+- ["9BleClient11DisposeBaseC", "_primaryDisposed"]
+- !private ["9BleClient11DisposeBaseC", "decrementChecked"]
+- ["9BleClient11DisposeBaseC", "dispose"]
+- !private ["9BleClient11DisposeBaseC", "incrementChecked"]
+- ["9BleClient11DisposeBaseC", "init"]
+- ["9BleClient11DisposeBaseC", "isDisposed"]
+- ["9BleClient11DisposeBaseC", "release"]
+- ["9BleClient11DisposeBaseC", "retain"]
+- !private ["9BleClient11DisposeBaseC", "rxFatalError"]
+- !private ["SQ", "calculateLocked"]
+- ["SQ", "init"]
+- !private ["SQ", "lock"]
+- !private ["SQ", "unlock"]
+- !private ["SH", "calculateLocked"]
+- ["SH", "init"]
+- !private ["SH", "lock"]
+- !private ["SH", "unlock"]
+- !private ["9BleClient4LockP", "calculateLocked"]
+- ["9BleClient4LockP", "init"]
+- !private ["9BleClient4LockP", "lock"]
+- !private ["9BleClient4LockP", "unlock"]
+- !private ["So9NSLockingP", "calculateLocked"]
+- ["So9NSLockingP", "init"]
+- !private ["So9NSLockingP", "lock"]
+- !private ["So9NSLockingP", "unlock"]
+- !private ["So8NSObjectC", "calculateLocked"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "lock"]
+- !private ["So8NSObjectC", "unlock"]
+- !private ["So8NSObjectP", "calculateLocked"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "lock"]
+- !private ["So8NSObjectP", "unlock"]
+- !private ["So15NSRecursiveLockC", "calculateLocked"]
+- !private ["So15NSRecursiveLockC", "deinit"]
+- ["So15NSRecursiveLockC", "init"]
+- !private ["So15NSRecursiveLockC", "lock"]
+- !private ["So15NSRecursiveLockC", "unlock"]
+- !private ["9BleClient18ReactiveCompatibleP", "calculateLocked"]
+- ["9BleClient18ReactiveCompatibleP", "init"]
+- !private ["9BleClient18ReactiveCompatibleP", "lock"]
+- !private ["9BleClient18ReactiveCompatibleP", "unlock"]
+- ["9BleClient18RefCountDisposableC", "Bool"]
+- ["9BleClient18RefCountDisposableC", "Disposable"]
+- !private ["9BleClient18RefCountDisposableC", "Disposables"]
+- !private ["9BleClient18RefCountDisposableC", "RefCountInnerDisposable"]
+- ["9BleClient18RefCountDisposableC", "SpinLock"]
+- !private ["9BleClient18RefCountDisposableC", "_count"]
+- !private ["9BleClient18RefCountDisposableC", "_disposable"]
+- !private ["9BleClient18RefCountDisposableC", "_lock"]
+- !private ["9BleClient18RefCountDisposableC", "_primaryDisposed"]
+- !private ["9BleClient18RefCountDisposableC", "decrementChecked"]
+- ["9BleClient18RefCountDisposableC", "deinit"]
+- ["9BleClient18RefCountDisposableC", "dispose"]
+- !private ["9BleClient18RefCountDisposableC", "incrementChecked"]
+- ["9BleClient18RefCountDisposableC", "init"]
+- ["9BleClient18RefCountDisposableC", "isDisposed"]
+- !private ["9BleClient18RefCountDisposableC", "release"]
+- ["9BleClient18RefCountDisposableC", "retain"]
+- !private ["9BleClient18RefCountDisposableC", "rxFatalError"]
+- !private ["9BleClient23RefCountInnerDisposableC", "AtomicCompareAndSwap"]
+- ["9BleClient23RefCountInnerDisposableC", "AtomicInt"]
+- ["9BleClient23RefCountInnerDisposableC", "RefCountDisposable"]
+- !private ["9BleClient23RefCountInnerDisposableC", "_isDisposed"]
+- !private ["9BleClient23RefCountInnerDisposableC", "_parent"]
+- ["9BleClient23RefCountInnerDisposableC", "deinit"]
+- ["9BleClient23RefCountInnerDisposableC", "dispose"]
+- ["9BleClient23RefCountInnerDisposableC", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "calculateLocked"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lock"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "unlock"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "calculateLocked"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "lock"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "unlock"]
+depends-nominal:
+- "s7CVarArgP"
+- "9BleClient10CancelableP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "9BleClient10DisposableP"
+- !private "9BleClient11DisposablesV"
+- "9BleClient11DisposeBaseC"
+- "SQ"
+- "SH"
+- "9BleClient4LockP"
+- "So9NSLockingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So15NSRecursiveLockC"
+- "9BleClient18ReactiveCompatibleP"
+- "9BleClient18RefCountDisposableC"
+- "9BleClient23RefCountInnerDisposableC"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/Sundeep/Moved_Project/AnalogicApp/node_modules/react-native-ble-plx/ios/BleClient-Bridging-Header.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "61d8c2eeaeff8aaae61ccfc35dfe1ce9"

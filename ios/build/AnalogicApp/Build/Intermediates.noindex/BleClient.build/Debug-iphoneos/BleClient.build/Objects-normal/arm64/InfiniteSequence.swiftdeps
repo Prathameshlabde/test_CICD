@@ -1,0 +1,56 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "InfiniteSequence"
+provides-nominal:
+- "9BleClient16InfiniteSequenceV"
+provides-member:
+- ["9BleClient16InfiniteSequenceV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AnyIterator"
+- "AssignmentPrecedence"
+- "InfiniteSequence"
+- "Sequence"
+depends-member:
+- !private ["s11AnyIteratorV", "init"]
+- ["9BleClient16InfiniteSequenceV", "AnyIterator"]
+- ["9BleClient16InfiniteSequenceV", "Element"]
+- ["9BleClient16InfiniteSequenceV", "Iterator"]
+- ["9BleClient16InfiniteSequenceV", "_copyContents"]
+- ["9BleClient16InfiniteSequenceV", "_copyToContiguousArray"]
+- ["9BleClient16InfiniteSequenceV", "_customContainsEquatableElement"]
+- !private ["9BleClient16InfiniteSequenceV", "_repeatedValue"]
+- ["9BleClient16InfiniteSequenceV", "deinit"]
+- ["9BleClient16InfiniteSequenceV", "init"]
+- ["9BleClient16InfiniteSequenceV", "makeIterator"]
+- ["9BleClient16InfiniteSequenceV", "underestimatedCount"]
+- ["9BleClient16InfiniteSequenceV", "withContiguousStorageIfAvailable"]
+- !private ["St", "init"]
+- !private ["ST", "AnyIterator"]
+- ["ST", "Element"]
+- ["ST", "Iterator"]
+- ["ST", ""]
+- ["ST", "_copyContents"]
+- ["ST", "_copyToContiguousArray"]
+- ["ST", "_customContainsEquatableElement"]
+- !private ["ST", "_repeatedValue"]
+- !private ["ST", "init"]
+- ["ST", "makeIterator"]
+- ["ST", "underestimatedCount"]
+- ["ST", "withContiguousStorageIfAvailable"]
+depends-nominal:
+- !private "s11AnyIteratorV"
+- "9BleClient16InfiniteSequenceV"
+- !private "St"
+- "ST"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/Sundeep/Moved_Project/AnalogicApp/node_modules/react-native-ble-plx/ios/BleClient-Bridging-Header.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "25a6f901620d4783743e11d57209d28d"

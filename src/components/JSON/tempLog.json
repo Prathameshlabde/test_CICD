@@ -1,0 +1,139 @@
+{
+  "fields": [
+    {
+      "id": "amplifierSerial",
+      "label": "Amplifier Serial :",
+      "fieldName": "amplifierSerial",
+      "command": "IDENT?\r\n",
+      "validationRegex": "",
+      "value": "",
+      "showField": false
+    },
+    {
+      "id": "Res01",
+      "label": "",
+      "fieldName": "Res01",
+      "command": "AVGCOUNTERS? 0\r\n",
+      "validationRegex": "",
+      "value": "",
+      "showField": true
+    },
+    {
+      "id": "Res02",
+      "label": "",
+      "fieldName": "Res02",
+      "command": "AVGCOUNTERS? 0\r\n",
+      "validationRegex": "",
+      "value": "",
+      "showField": true
+    },
+    {
+      "id": "Res11",
+      "label": "",
+      "fieldName": "Res11",
+      "command": "AVGCOUNTERS? 1\r\n",
+      "validationRegex": "",
+      "value": "",
+      "showField": true
+    },
+    {
+      "id": "Res12",
+      "label": "",
+      "fieldName": "Res12",
+      "command": "AVGCOUNTERS? 1\r\n",
+      "validationRegex": "",
+      "value": "",
+      "showField": true
+    },
+    {
+      "id": "Res21",
+      "label": "",
+      "fieldName": "Res21",
+      "command": "AVGCOUNTERS? 2\r\n",
+      "validationRegex": "",
+      "value": "",
+      "showField": true
+    },
+    {
+      "id": "Res22",
+      "label": "",
+      "fieldName": "Res22",
+      "command": "AVGCOUNTERS? 2\r\n",
+      "validationRegex": "",
+      "value": "",
+      "showField": true
+    },
+    {
+      "id": "Res31",
+      "label": "",
+      "fieldName": "Res31",
+      "command": "AVGCOUNTERS? 3\r\n",
+      "validationRegex": "",
+      "value": "",
+      "showField": true
+    },
+    {
+      "id": "Res32",
+      "label": "",
+      "fieldName": "Res32",
+      "command": "AVGCOUNTERS? 3\r\n",
+      "validationRegex": "",
+      "value": "",
+      "showField": true
+    },
+    {
+      "id": "Res41",
+      "label": "",
+      "fieldName": "Res41",
+      "command": "AVGCOUNTERS? 4\r\n",
+      "validationRegex": "",
+      "value": "",
+      "showField": true
+    },
+    {
+      "id": "Res42",
+      "label": "",
+      "fieldName": "Res42",
+      "command": "AVGCOUNTERS? 4\r\n",
+      "validationRegex": "",
+      "value": "",
+      "showField": true
+    },
+    {
+      "id": "Res51",
+      "label": "",
+      "fieldName": "Res51",
+      "command": "AVGCOUNTERS? 5\r\n",
+      "validationRegex": "",
+      "value": "",
+      "showField": true
+    },
+    {
+      "id": "Res52",
+      "label": "",
+      "fieldName": "Res52",
+      "command": "AVGCOUNTERS? 5\r\n",
+      "validationRegex": "",
+      "value": "",
+      "showField": true
+    },
+    {
+      "id": "Res61",
+      "label": "",
+      "fieldName": "Res61",
+      "command": "AVGCOUNTERS? 6\r\n",
+      "validationRegex": "",
+      "value": "",
+      "showField": true
+    },
+    {
+      "id": "Res62",
+      "label": "",
+      "fieldName": "Res62",
+      "command": "AVGCOUNTERS? 6\r\n",
+      "validationRegex": "",
+      "value": "",
+      "showField": true
+    }
+  ]
+}
